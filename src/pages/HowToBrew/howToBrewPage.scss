@@ -1,0 +1,39 @@
+.how-to-brew-page {
+  .container {
+    &__col {
+      padding: 2rem 0;
+
+      @include respond-to('medium') {
+        padding: 0;
+      }
+    }
+  }
+
+  .text-body--primary {
+    color: $secondaryGray;
+  }
+
+  .stepper-indicator-wrapper {
+    flex-basis: min(10%, 20rem);
+  }
+
+  .control-buttons {
+    margin-top: 3rem;
+    .btn {
+      @include respond-to('mobile') {
+        width: 100%;
+      }
+    }
+  }
+
+  .brewing-method {
+    &__caption {
+      color: $secondaryGray;
+      text-transform: uppercase;
+    }
+  }
+
+  .stepper {
+    padding-bottom: 10%;
+  }
+}

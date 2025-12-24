@@ -1,0 +1,45 @@
+.expandable-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & .custom-select__options {
+    width: 10rem;
+
+    .btn {
+      width: 100%;
+      text-align: left;
+    }
+  }
+}
+
+.expandable {
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: $mainBlue;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.3rem;
+    text-decoration-line: underline;
+    padding: 0;
+  }
+
+  &__arrow-container {
+    padding: 0 0.8rem;
+  }
+
+  &__arrow {
+    width: 0.9rem;
+    height: 0.6rem;
+
+    &--fliped {
+      transform: rotate(180deg);
+    }
+  }
+}

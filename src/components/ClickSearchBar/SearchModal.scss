@@ -1,0 +1,214 @@
+.accordion-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  z-index: 10000;
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+    padding: 1rem;
+
+    h2 {
+      margin: 0;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+  }
+
+  .close-btn {
+    font-size: 1.25rem;
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    top: 4rem;
+    z-index: 100;
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: 0 0 0 1px transparent, 0 0 0 4px transparent, 0 2px 4px rgba(0, 0, 0, 0.18);
+  }
+
+  .tabs-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 1rem;
+
+    .tab-panel {
+      background: white;
+      border: #333 1px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      border: 1px solid #ddd;
+      border-radius: 16px;
+      margin-bottom: 0.5rem;
+      transition: flex 0.3s ease;
+      cursor: pointer;
+      overflow: hidden;
+      justify-content: center;
+      padding: 0.6rem;
+      row-gap: 1rem;
+
+      &.active {
+        position: absolute;
+        min-width: 34rem;
+        max-height: 36rem;
+        top: 19rem;
+        left: 74rem;
+        z-index: 100;
+        flex: 10;
+        box-shadow: 0 0 0 1px rgb(0 0 0 / 4%), 0 6px 20px rgb(0 0 0 / 20%) !important;
+        justify-content: start;
+        padding: 2.4rem;
+        border-radius: 24px;
+
+        .tab-title {
+          padding: 0.75rem 1rem;
+          font-weight: 700;
+          font-size: 2.2rem;
+        }
+
+        @media (max-width: 768px) {
+          display: block !important;
+          position: static;
+          min-width: auto;
+          left: auto;
+          top: auto;
+          max-height: none;
+          padding: 1.5rem;
+          box-shadow: none;
+        }
+      }
+
+      .tab-title {
+        padding: 0.75rem 1rem;
+        font-weight: 500;
+        font-size: 1.4rem;
+      }
+
+      .tab-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .inactive-label {
+          font-size: 1.2rem;
+          color: #aaa;
+          font-weight: 400;
+        }
+      }
+
+      .tab-content {
+        padding: 1rem;
+        display: none;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      &.active .tab-content {
+        display: flex;
+      }
+    }
+  }
+
+  .radio-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .radio-item input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #555;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+    cursor: pointer;
+    position: relative;
+    transition: border-color 0.2s ease;
+  }
+
+  .radio-item input[type="radio"]:checked {
+    border-color: $mainBlue;
+  }
+
+  .radio-item input[type="radio"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 52%;
+    left: 53%;
+    width: 8px;
+    height: 8px;
+    background: $mainBlue;
+    border-radius: 50%;
+    transform: translate(-53%, -53%);
+  }
+
+  .radio-label {
+    font-size: 1.4rem;
+    color: #333;
+    cursor: pointer;
+  }
+
+  .modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    border-top: 1px solid #eee;
+    padding: 1rem;
+
+    .reset-btn,
+    .apply-btn {
+      padding: 1rem 2.6rem;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .reset-btn {
+      background: none;
+      color: #555;
+    }
+
+    .apply-btn {
+      background: $mainBlue;
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+}
+
+
+.tab-description {
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.radio-text-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-desc {
+  font-size: 9px;
+  color: #888;
+}

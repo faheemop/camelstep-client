@@ -1,0 +1,122 @@
+.pagination {
+  display: inline-flex;
+  padding: 0;
+  background-color: $mainWhite;
+  filter: drop-shadow(1.5px 1.5px 3px rgba(174, 174, 192, 0.4)) drop-shadow(-1px -1px 2px #ffffff) drop-shadow(-2px -2px 2px #ffffff);
+  overflow: hidden;
+  border-radius: 10rem;
+
+  &-container {
+    display: flex;
+    justify-content: flex-end;
+
+    &:empty {
+      padding-block-end: 15rem;
+    }
+
+    @include respond-to('mobile') {
+      justify-content: center;
+
+      &:empty {
+        padding-block-end: 8rem;
+      }
+    }
+  }
+
+  &-link {
+    background: none;
+    border: none;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: $mainBlue;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    min-width: 40px;
+    padding: 0;
+    transition: all 170ms linear;
+    cursor: pointer;
+    
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+
+  .dots {
+    padding: 7px 15px 0 15px;
+  }
+
+  &-item {
+    float: left;
+    padding: 1rem 0.5rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    color: pointer;
+    z-index: 1;
+
+    &:not(:last-of-type) {
+      border-right: 1px solid $darkWhite;
+    }
+
+    &:first-of-type {
+      border-top-left-radius: 10rem;
+      border-bottom-left-radius: 10rem;
+    }
+
+    &:last-of-type {
+      border-top-right-radius: 10rem;
+      border-bottom-right-radius: 10rem;
+    }
+
+    &.active {
+      .pagination-link {
+        color: $colorWhite;
+        background-color: $mainBlue;
+      }
+    }
+  }
+
+  &-icon {
+
+    &--prev,
+    &--next {
+      vertical-align: middle;
+    }
+
+    &--prev {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.pagination-container {
+  padding: 0 2rem;
+  margin: 18rem 0 3.2rem;
+
+  @media(max-width: 574px) {
+    padding: 0;
+  }
+
+  @media(max-width: 768px) {
+    margin: 0rem 0 3.2rem;
+  }
+}
+
+html[dir='rtl'] {
+  .pagination {
+    &-icon {
+      &--prev {
+        transform: rotate(0deg);
+      }
+
+      &--next {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

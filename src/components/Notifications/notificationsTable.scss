@@ -1,0 +1,75 @@
+.notifications-table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  margin-block-start: 3rem;
+
+  .custom-checkbox {
+    margin-inline-end: 0;
+  }
+
+  & td,
+  & th {
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+
+  & td:nth-child(1),
+  & th:nth-child(1) {
+    text-align: left;
+  }
+
+  & td:nth-child(1) {
+    & > * {
+      display: inline;
+    }
+  }
+
+  & th:nth-child(2),
+  th:nth-child(3) {
+    width: 15rem;
+  }
+
+  & th {
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e2e0db;
+  }
+
+  @include respond-to('mobile') {
+    border: 0;
+
+    & thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+
+    & tr {
+      display: block;
+      margin-block-end: 0.625em;
+    }
+
+    & td {
+      display: block;
+      font-size: 0.8em;
+      text-align: right;
+      &::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $secondaryGray;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

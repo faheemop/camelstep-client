@@ -1,0 +1,20 @@
+.order-package {
+  &-bar {
+    background-color: $mainBlue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-radius: 1.1rem;
+    .text {
+      color: $colorWhite;
+    }
+  }
+  &__courier-name {
+    display: inline-block;
+    margin-inline-end: 1rem;
+    font-weight: 600;
+  }
+  &__number {
+    display: inline-block;
+  }
+}

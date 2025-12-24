@@ -1,0 +1,33 @@
+.stepper {
+  .stepper-indicator {
+    margin: 3rem 0;
+    flex-wrap: wrap;
+
+    @include respond-to('medium') {
+      margin: 0;
+    }
+  }
+  &--horizontal {
+    flex-direction: column;
+
+    @include respond-to('medium') {
+      flex-direction: row;
+    }
+
+    .stepper-indicator {
+      flex-direction: row;
+
+      @include respond-to('medium') {
+        flex-direction: column;
+      }
+    }
+  }
+  &--vertical {
+    flex-direction: column;
+
+    .stepper-indicator {
+      margin: 3rem 0;
+      flex-direction: row;
+    }
+  }
+}

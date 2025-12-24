@@ -1,0 +1,32 @@
+.alert {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  padding: 1.2rem 2rem;
+  border-radius: 0.8rem;
+  min-width: 23rem;
+  display: block;
+  width: max-content;
+  word-break: break-word;
+
+  &--primary {
+    background-color: $mainBlue;
+  }
+
+  &--info {
+    background-color: $mainBeige;
+  }
+
+  &--danger {
+    background-color: $colorError;
+  }
+
+  &--success {
+    background-color: $colorSuccess;
+  }
+
+  &--warning {
+    background-color: $colorWarning;
+  }
+}

@@ -1,0 +1,40 @@
+.promotions-modal {
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    width: 80vw;
+  }
+
+  img {
+    width: 100%;
+
+    @media (min-width: 768px) {
+      width: auto;
+      max-width: 80vw;
+      max-height: 80vh;
+    }
+  }
+}
+
+.promotion-banner-container {
+  height: 50px;
+  width: 100%;
+  background-color: $darkBeige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $colorWhite;
+
+  .promotion-label {
+    color: $colorWhite;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .space {
+    width: 10px;
+  }
+}

@@ -1,0 +1,117 @@
+.summary-item {
+  display: block;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+
+    & .product-badges {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    & .product-preview{
+
+    @include respond-to('x-small') {
+        margin-block-start: 3rem;
+        width: 8rem;
+        margin-inline-start: 2rem;
+      }
+    }
+  }
+
+  &__name {
+    font-size: 14px;
+    line-height: 142%;
+    text-align: right;
+    letter-spacing: 0.005em;
+    font-weight: 500;
+  }
+
+  &__price {
+    text-align: right;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-block-start: 0.8rem;
+  }
+
+  &__product-info {
+    text-align: right;
+  }
+
+  &__badges {
+    display: flex;
+    padding-block-start: 2rem;
+  }
+
+  &__hint {
+    display: flex;
+    padding-block-start: 1rem;
+  }
+
+  &__hint-text {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    overflow-wrap: break-word;
+  }
+
+  &__badge-wrapper {
+    padding-inline: .2rem;
+  }
+
+  &__product-view {
+    position: relative;
+
+    @include respond-to('x-small') {
+      flex-basis: 50%;
+    }
+  }
+
+  &__drop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+
+    position: static;
+    width: 101px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    background: #F7F7F7;
+    box-shadow: -1px -1px 3px #FFFFFF, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+    border-radius: 100px;
+  }
+
+  &__right-box {
+    display: flex;
+    justify-content: center;
+    padding-block-start: 1rem;
+  }
+
+  &__delete:hover, &__plus-icon:hover, &__minus-icon:hover {
+    cursor: pointer;
+  }
+
+  &__package-products-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    overflow-x: scroll;
+  }
+  &__package-product {
+    margin: 0 1rem;
+  }
+  &__product-image {
+    width: 5rem;
+    height: 5rem;
+  }
+}

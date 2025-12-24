@@ -1,0 +1,86 @@
+.profile-page {
+  max-width: 130rem;
+
+  .profile-page-container {
+    padding-bottom: 10%;
+  }
+
+  .profile-subpage {
+    margin-top: 2rem;
+
+    @include respond-to('medium') {
+      margin-top: 0;
+    }
+
+    &__title {
+      color: $mainGray;
+    }
+  }
+
+  .btn-checkbox {
+    margin-bottom: 1rem;
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  .form__submit-btn {
+    min-height: 4rem;
+  }
+
+  .swiper {
+    width: 100vw;
+    position: relative;
+    left: -2.5rem;
+
+    @include respond-to('mobile') {
+      margin-inline-start: -4px;
+    }
+  }
+
+  [dir="rtl"] & .swiper {
+    left: inherit;
+    right: -2.5rem;
+  }
+
+  .swiper-slide {
+    width: 30%;
+  }
+
+  button {
+    &.unchecked {
+      background-color: white;
+      color: $mainBlue;
+    }
+
+    &.checked,
+    &.unchecked {
+      margin-bottom: 3rem;
+    }
+  }
+
+  .firstCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .firstCol-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .profile-page-text {
+      color: $mainBlue;
+      margin-bottom: 30px;
+    }
+  }
+
+  .secondCol {
+    margin-top: 5rem;
+  }
+}

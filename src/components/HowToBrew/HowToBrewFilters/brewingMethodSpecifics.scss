@@ -1,0 +1,46 @@
+.brewing-method-specifics {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-block-start: 2rem;
+  flex-wrap: wrap;
+  &__item {
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    flex-basis: 200px;
+    position: relative;
+
+    &-title {
+      flex-shrink: 0;
+      display: inline-block;
+      margin-inline-end: 2rem;
+      color: $secondaryGray;
+      text-transform: uppercase;
+    }
+
+    &-value {
+      font-weight: 600;
+      display: inline-block;
+      color: $mainBlue;
+    }
+
+    &-input {
+      font-family: inherit;
+      font-size: 1.2rem;
+      width: 5ch;
+
+      padding: 0 0.5rem;
+      background: #ffffff;
+      box-sizing: content-box;
+      border: 1px solid #00546f;
+      box-shadow: inset -1px -1px 1px rgba(255, 255, 255, 0.7), inset 1.5px 1.5px 1px rgba(174, 174, 192, 0.2);
+      border-radius: 10rem;
+      &-error {
+        color: $colorError;
+        position: absolute;
+        top: 100%;
+      }
+    }
+  }
+}

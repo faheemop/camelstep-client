@@ -1,0 +1,73 @@
+.message-box {
+  position: relative;
+
+  &__label {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #9A97A4;
+    transition-duration:300ms;
+
+    html[dir='rtl'] & {
+      left: inherit;
+      right: 1.5rem;
+    }
+  }
+
+  &__text-area {
+    border: 1px solid #E2E0DB;
+    box-sizing: border-box;
+    box-shadow: inset -1px -1px 1px rgba(255, 255, 255, 0.7), inset 1.5px 1.5px 1px rgba(174, 174, 192, 0.2);
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    max-width: 45rem;
+    width: 100%;
+    min-width: 23rem;
+    height: 10rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #373C3D;
+
+    &::placeholder {
+      opacity: 0;
+    }
+    
+    &--focused {
+      border: 1px solid $mainBlue;
+      outline: none;
+    }
+  }
+
+  &__characters-counter {
+    color: $secondaryGray;
+    margin-block-start: 0.4rem;
+    
+
+    &--focused {
+      color: $mainGray;
+    }
+
+    &--full {
+      color: $colorError;
+    }
+  }
+}
+
+.message-box__text-area-container:focus-within > span,
+.message-box__text-area:not(:placeholder-shown) + span{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #373C3D;
+  transform:translateY(-2.5rem);
+  background-color: $mainWhite;
+  z-index: 1;
+  padding: 0 0.8rem;
+}

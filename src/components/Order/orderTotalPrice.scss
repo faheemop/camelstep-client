@@ -1,0 +1,17 @@
+.order-total, .order-subtotal {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-block-end: 2.5rem;
+}
+
+.order-subtotal {
+  &__title, &__price {
+    font-weight: 400;
+  }
+}
+
+.order-subtotal__price--discount {
+  color: $colorSuccess;
+}

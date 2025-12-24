@@ -1,0 +1,85 @@
+.payment-wrapper {
+  h2 {
+    color: $mainBlue;
+  }
+  .form-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 1rem;
+  }
+  .custom-input__input {
+    width: 100%;
+  }
+  .card-wrapper {
+    margin-block-end: 2.5rem;
+    .custom-input-wrapper {
+      margin-block-end: 0;
+    }
+    .supported-cards {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-block-start: .8rem;
+    }
+  }
+
+  #mysr-form-form-el#mysr-form-form-el#mysr-form-form-el#mysr-form-form-el#mysr-form-form-el.mysr-form {
+    max-width: 100% !important;
+    .mysr-form-methodButtons {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 3rem !important;
+      & > * {
+        flex-grow: 1;
+        max-width: calc(50% - 1.5rem);
+      }
+    }
+    .mysr-form-button:not(.mysr-form-stcPayButton):not(.mysr-form-applePayButton) {
+      border-radius: 10rem;
+      border: none;
+      padding: 0.2rem 2rem;
+      transition: 100ms linear;
+      cursor: pointer;
+      transform-origin: center;
+      display: inline-block;
+      vertical-align: middle;
+      margin: auto;
+      text-transform: capitalize;
+      font-size: 1.4rem;
+      background-color: $mainBlue;
+      color: $colorWhite;
+      box-shadow: (4px 10px 20px rgba(0,0,0, 0.16));
+
+      &:hover {
+        font-size: 1.55rem;
+        background-color: $lightBlue;
+        letter-spacing: -0.01em;
+      }
+    }
+  }
+}
+
+.payment-types {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem;
+  margin: 3rem 0;
+  max-width: 70rem;
+  svg {
+    max-height: 2.5rem;
+    width: auto;
+    flex-shrink: 0;
+  }
+  [for="apple"] svg {
+    height: 2.5rem;
+  }
+}
+
+.apple-pay-button {
+  display: inline-block;
+  -webkit-appearance: -apple-pay-button;
+  -apple-pay-button-type: plain;
+  -apple-pay-button-style: white;
+  overflow: hidden;
+  text-indent: -9999em;
+}

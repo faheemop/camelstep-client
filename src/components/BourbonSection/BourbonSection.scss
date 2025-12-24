@@ -1,0 +1,164 @@
+.bourbon-section-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.bourbon-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rem;
+    margin-bottom: 14.3rem;
+    padding: 0 7.5rem;
+    width: 100%;
+    max-width: 144rem;
+
+    @media (max-width: 768px) {
+        margin-top: 3rem;
+    }
+
+    @media (max-width: 1023px) {
+        padding: 0 1.5rem;
+    }
+    
+    @media (min-width: 1024px) and (max-width: 1240px) {
+        padding: 0 3.0rem;
+    }
+    
+    .section-label{
+        font-size: 4.2rem;
+        color: $mainBlue;
+        font-weight: 700;
+        margin-bottom: 6.6rem;
+    }
+
+    .bourbon-cards-section{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.1rem;
+        width: 100%;
+
+        @media (min-width: 1024px) and (max-width: 1240px) {
+            justify-content: space-between;
+            gap: 0;
+        }
+
+        @media (min-width: 764px) and (max-width: 1023px) {
+            justify-content: center;
+        }
+
+        .bourbon-card{
+            width: 32%;
+            height: 50.7rem;
+            position: relative;
+            overflow: hidden;  
+            cursor: pointer; 
+
+            &:hover::before {
+                content: "";
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                opacity: 0.4;
+            }
+
+
+            @media (max-width: 763px) {
+                width: 100%;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    z-index: 2;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: black;
+                    opacity: 0.4;
+                }
+                .link-icon{
+                    opacity: 0;
+                }
+            }
+
+            @media (min-width: 764px) and (max-width: 1023px) {
+                width: 48%;
+            }
+    
+            @media (min-width: 1024px) {
+                width: 32%;
+            }
+
+            .card-link{
+                width: 100%;
+                height: 100%;    
+                display: flex;
+                align-items: flex-end;
+            }
+
+            &:hover{
+                .link-icon{
+                    opacity: 0;
+                }
+                .card-description{
+                    opacity: 1;
+                }
+            }
+
+            .card-image{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            .link-icon{
+                position: absolute;
+                z-index: 10;
+                top: 1.5rem;
+                right: 0.8rem;
+                transition-property: all;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                transition-duration: 500ms;
+            }
+
+            .card-description{
+                position: absolute;
+                bottom: 5.5rem;
+                z-index: 3;
+                min-width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: white;
+                opacity: 0;
+                transition-property: all;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                transition-duration: 500ms;
+
+                @media (max-width: 763px) {
+                    opacity: 1;
+                }
+
+                .description-title{
+                    font-size: 4.2rem;
+                    font-weight: 700;
+                    margin-bottom: 5px;
+                }
+
+                .description-subtitle{
+                    font-size: 2rem;
+                    font-weight: 700;
+                    text-decoration: underline;
+                    text-underline-offset: 2px;
+                }
+            }
+        }
+    }
+}

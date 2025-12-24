@@ -1,0 +1,1134 @@
+{
+  "login": {
+    "headerText": "Sign in with phone",
+    "agreementTextPartOne": "By entering your number, you’re agreeing to our ",
+    "agreementLink": "Terms of Service and Privacy Policy.",
+    "agreementTextPartTwo": "Thanks!",
+    "signIn": "Sign in",
+    "numberVerificationHeader": "Verification Number",
+    "notReceiveVerificationCode": "Didn’t receive it?",
+    "confirmCode": "Confirm",
+    "phoneError": "Invalid phone number",
+    "captchaError": "Captcha is required"
+  },
+  "menu": {
+    "quiz": "Taste Quiz",
+    "products": "Our Products",
+    "howToBrew": "How to Brew",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "support": "Support Us",
+    "terms": "Terms & conditions",
+    "policy": "Our Policies",
+    "returns": "Returning Policy",
+    "faq": "FAQ",
+    "help": "Need a help?",
+    "contact": "Contact Us",
+    "locations": "Our Branches"
+  },
+  "products": {
+    "title": "Our Products",
+    "archiveInfo": "Dear seeker, here you will find products that will no longer be on sale!",
+    "product": {
+      "notFound": "Product not found",
+      "inStock": "In stock {{count}} items",
+      "outOfStock": "Out of Stock",
+      "addToCart": "Add to cart - {{price}}",
+      "beansInfo": "For better result, beans should be ground upon brewing",
+      "details": "The Details",
+      "howToBrew": "How to Brew?",
+      "howToBrewInfo": "This coffee will be fresh roasted for you. We expect Wonderstate Coffee will roast and ship this coffee in 1-2 business days depending on their roasting schedule.",
+      "recommendedMethod": "Recommended method",
+      "mightNeed": "You might need it",
+      "includedProducts": "This package includes",
+      "moreCoffees": "More delicious coffee",
+      "readInfo": "Read info",
+      "variants": "Variants",
+      "modificators": "modificators",
+      "disabledWishlist": "You need to be logged in to be able to add product to wishlist",
+      "variantRequired": "All variant fields are required",
+      "vatIncluded": "VAT Included",
+      "priceInclVat": "Price incl. VAT",
+      "priceExecVatSar": "Price exec. VAT",
+      "currencyLabel": "SAR"
+    },
+    "youWillNeed": "You will need also:"
+  },
+  "howToBrew": {
+    "cupsText": "How many cups do you need to prepare?",
+    "tasteText": "What taste do you prefer?",
+    "barista": "Edit as barista",
+    "options": {
+      "grams": "grams",
+      "temperature": "temperature",
+      "waterAmount": "amount of water",
+      "ratio": "ratio"
+    },
+    "validation": {
+      "notEmpty": "{{name}} cannot be empty",
+      "lessThan": "{{name}} cannot be greater than {{limit}}",
+      "number": "{{name}} must be a number"
+    },
+    "youWillNeed": "to prepare it you’ll need",
+    "how": "How to do it?",
+    "readyTools": "ready the tool",
+    "somethingWentWrong": "something went wrong"
+  },
+  "quiz": {
+    "viewAllCoffees": "View All coffees",
+    "viewAllProducts": "View All products",
+    "savePreferences": "save my preferences",
+    "buy": "Buy - ",
+    "similarCoffees": "similar coffees:",
+    "howToBrew": "See how to brew",
+    "checkOut": {
+      "coffee": "Check out your coffee:",
+      "equipment": "Check out your tool:"
+    },
+    "selectOption": "Select Option"
+  },
+  "navbar": {
+    "products": "Products",
+    "wishlist": "Wishlists",
+    "cart": "Cart",
+    "profile": "Profile"
+  },
+  "profile": {
+    "greeting": "Hi, there!",
+    "nav": {
+      "details": "Profile Details",
+      "email": "Email Details",
+      "login": "Login Details",
+      "addresses": "Addresses",
+      "wishlist": "Wishlist",
+      "orders": "Orders History",
+      "preferences": "Product Preferences",
+      "notifications": "Notifications"
+    },
+    "addresses": {
+      "info": "Please provide the address where you’d like your orders to be shipped.",
+      "noAddresses": "You don’t have any addresses yet",
+      "addressPurposeTitle": "{{addressPurpose}} addresses",
+      "defaultAddressLabel": "default",
+      "setAsDefault": "Set as default"
+    },
+    "preferences": {
+      "info": "Set your product preferences. We will show you products that you may like.",
+      "edit": "Edit Preferences",
+      "coffee": {
+        "noPreferences": "Looks like you haven’t set it yet your coffee preferences.",
+        "button": "Set Coffee Preferences"
+      },
+      "tools": {
+        "noPreferences": "Looks like you haven’t set it yet your tools preferences.",
+        "button": "Set Tools Preferences"
+      }
+    },
+    "notifications": {
+      "info": "Decide how you want to get your notifications, when is selected you’ll receive notifications.",
+      "tableHeading": "notification type",
+      "products": "Notifications about the availability of products",
+      "discounts": "Discounts and promotions",
+      "orders": "Order updates",
+      "ordersInfo": "(at least one need to be On*)",
+      "wishList": "You’ll receive notification if product is available :)!"
+    },
+    "wishList": {
+      "wishlistEmpty": "Your wishlist is empty."
+    },
+    "orders": {
+      "noOrders": "You don’t have any orders yet.",
+      "orderNumber": "Order No.",
+      "orderDate": "Order date",
+      "orderStatus": "Order status",
+      "orderTotal": "Order total",
+      "seeDetails": "see details",
+      "shipmentDate": "Shipment date"
+    },
+    "profileDetails": {
+      "updateSuccess": "Profile details updated successfully"
+    },
+    "emailDetails": {
+      "sent": "A verification link has been sent to your email.",
+      "updateSuccess": "Successfuly verified email address",
+      "updateFailed": "Email verification failed. Please try again."
+    }
+  },
+  "payments": {
+    "title": "Select Payment Method",
+    "buttonText": "Pay {{amount}} {{currency}}"
+  },
+  "forms": {
+    "generalError": "Something went wrong, please try again.",
+    "firstName": {
+      "label": "First Name",
+      "required": "First Name is required"
+    },
+    "lastName": {
+      "label": "Last Name",
+      "required": "Last Name is required"
+    },
+    "fullName": {
+      "label": "Full name",
+      "requiredMsg": "Required",
+      "validationMsg": {
+        "short": "Too Short!",
+        "long": "Too Long!",
+        "specialCharacters": "Name must not include any special characters"
+      }
+    },
+    "nameOnCard": {
+      "label": "Name on Card",
+      "requiredMsg": "Name on Card is required",
+      "validationMsg": "Name is too short"
+    },
+    "email": {
+      "label": "E-mail",
+      "requiredMsg": "Required",
+      "validationMsg": "Invalid email"
+    },
+    "phoneNumber": {
+      "label": "Phone number",
+      "requiredMsg": "Phone number is required",
+      "validationMsg": "Must be a number",
+      "lengthMsg": "Must be more than 5 characters",
+      "successMsg": "Phone number updated successfully"
+    },
+    "otp": {
+      "label": "OTP Verification Code",
+      "requiredMsg": "OTP Verification Code is required",
+      "resend": "resend it",
+      "in": "in",
+      "seconds": "seconds"
+    },
+    "addAddress": "Add address",
+    "invalidAddress": "Address is invalid",
+    "addressline1": {
+      "label": "Address line 1",
+      "requiredMsg": "address line is required",
+      "toLong": "Character limit reached."
+    },
+    "addressline2": {
+      "label": "Address line 2",
+      "requiredMsg": "address line is required",
+      "toLong": "Character limit reached."
+    },
+    "city": {
+      "label": "Search for your City",
+      "requiredMsg": "city is required"
+    },
+    "country": {
+      "label": "Country",
+      "requiredMsg": "country is required",
+      "notSupported": "Country is not supported"
+    },
+    "zip": {
+      "label": "Zip Code",
+      "requiredMsg": "zip code is required",
+      "validationMsg": "zip code is invalid"
+    },
+    "addressPurpose": {
+      "billing": "billing",
+      "shipping": "shipping",
+      "gift": "gift",
+      "label": "Address purpose",
+      "requiredMsg": "address type must be identified"
+    },
+    "card": {
+      "label": "Credit Card Number",
+      "requiredMsg": "Credit Card Number is required",
+      "validationMsg": "Credit Card Number is too short"
+    },
+    "expiryDate": {
+      "label": "Expiry Date",
+      "requiredMsg": "Expiry Date on Card is required",
+      "validationMsg": "Expiry Date is too short",
+      "old": "The card is expired"
+    },
+    "cvv": {
+      "label": "Security Code",
+      "requiredMsg": "Security Code on Card is required",
+      "validationMsg": "Security Code is too short"
+    },
+    "present": {
+      "charactersLeft": "{{charactersLeft}} {{character}} left",
+      "characterSingular": "character",
+      "characterPlural": "characters",
+      "notePlaceholder": "Add Description (Optional)",
+      "sendAsPresent": "Send as a gift"
+    },
+    "giftCode": {
+      "label": "Enter Promo Code",
+      "successMsg": "Successfully applied gift code"
+    },
+    "nationality": {
+      "label": "Nationality",
+      "requiredMsg": "Nationality is required"
+    },
+    "age": {
+      "label": "Age",
+      "requiredMsg": "Age is required",
+      "validationMsg": {
+        "young": "Candidate can't be younger than 18 years old.",
+        "old": "Candidate can't be older than 60 years old"
+      }
+    },
+    "status": {
+      "label": "Social Status",
+      "requiredMsg": "Social Status is required"
+    },
+    "education": {
+      "label": "Education",
+      "requiredMsg": "Education is required"
+    },
+    "preferredWorkingCity": {
+      "label": "Preferred working city",
+      "requiredMsg": "Preferred city is required"
+    },
+    "diffCityKSA": {
+      "label": "Are you able to work in different city in KSA ?",
+      "requiredMsg": "This option is required"
+    },
+    "file": {
+      "label": "Upload resume",
+      "label2": "Upload invoice",
+      "labelinfo": "(pdf, doc, docx, jpg - max 5 mb)",
+      "requiredMsg": "Attachment file is required",
+      "validationMsg": {
+        "size": "File is too large",
+        "type": "Incorrect file type"
+      }
+    },
+    "photo": {
+      "label": "Attach photo for the problem or for the needed spare part",
+      "labelinfo": "(pdf, jpg, jpeg, png - max 5 mb)",
+      "requiredMsg": "Photo is required",
+      "validationMsg": {
+        "size": "Photo is too large",
+        "type": "Incorrect photo type"
+      }
+    },
+    "company": {
+      "label": "Company Name",
+      "requiredMsg": "Company Name is required"
+    },
+    "purchasingdate": {
+      "label": "Purchasing Date",
+      "requiredMsg": "Purchasing Date is required",
+      "pastOrTodayMsg": "The purchasing date cannot be in the future."
+    },
+    "productname": {
+      "label": "Product Name",
+      "requiredMsg": "Product Name is required"
+    },
+    "invoicenumber": {
+      "label": "Invoice Number",
+      "requiredMsg": "Invoice Number is required"
+    },
+    "serialnumber": {
+      "label": "Serial Number",
+      "requiredMsg": "Serial Number is required"
+    },
+    "body": {
+      "requiredMsg": "Message is required"
+    },
+    "save": "Save Changes",
+    "savePhoneNumber": "Update phone number",
+    "saveEmail": "Update email",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "send": "Send",
+    "sending": "Sending message..."
+  },
+  "sorting": {
+    "sortBy": "sort by",
+    "options": {
+      "noneValue": "none",
+      "recentlyadded": "Recently Added",
+      "nameAZ": "Name A-Z",
+      "nameZA": "Name Z-A",
+      "asc_price": "Ascending Price",
+      "desc_price": "Descending Price"
+    }
+  },
+  "filtering": {
+    "filters": "filters",
+    "allFilters": "All Filters",
+    "clearFilters": "Clear all filters",
+    "tasteWheel": "Taste Wheel",
+    "apply": "Apply Filters",
+    "search": "Search...",
+    "searchTooltip": "Insert quotation marks to search for an exact phrase. For example: 'Coffee 1kg'",
+    "featured": "Featured"
+  },
+  "tags": {
+    "new": "new",
+    "bestseller": "bestseller",
+    "limited": "limited",
+    "soldOut": "Sold out"
+  },
+  "sections": {
+    "bestseller": "Best Sellers",
+    "new": "New Arrivals",
+    "exclusive": "Exclusive",
+    "limited": "Limited Harvest",
+    "others": "Others",
+    "all_products": "All Products"
+  },
+  "searchtags": {
+    "country": "Select country",
+    "brewing": "Select method",
+    "note": "Select note"
+  },
+  "modals": {
+    "address": {
+      "heading": "Delete Address?",
+      "text": "Are you sure you want to delete this address?"
+    }
+  },
+  "tasteWheel": {
+    "title": "Choose your flavor",
+    "selectNote": "Selected notes:",
+    "save": "Save preferences",
+    "selectLabel": "select {{noteType}}"
+  },
+  "common": {
+    "methodTitle": "Brewin Method",
+    "methodDescription": "Choose how you want your coffee brewed.",
+    "countryTitle": "Country",
+    "countryDescription": "Select the origin of the coffee beans.",
+    "noteTitle": "Major Note",
+    "noteDescription": "Pick the dominant flavor note.",
+    "startSearch": "Start your search",
+    "selectCountry": "Select country",
+    "selectCate": "Select category",
+    "selectTrademark": "Select Trademark",
+    "selectMethod": "Select method",
+    "selectNote": "Select note",
+    "coffee": "coffee",
+    "tool": "tools",
+    "tools": "tools",
+    "spareParts": "Spare Parts",
+    "equipment": "equipment",
+    "all": "all",
+    "archive": "archive",
+    "packages": "Discounted Bundles",
+    "profile": "profile",
+    "logIn": "log in",
+    "logOut": "log out",
+    "hi": "hi",
+    "preferences": "preferences",
+    "descbrew": "Choose how you want your coffee brewed.",
+    "descCountry": "Select the origin of the coffee beans.",
+    "descMajor": "Pick the dominant flavor note.",
+    "descTool": "Select the type of tool you need.",
+    "brewingMethod": "Brewing Method",
+    "brewingMethodModal": "Select Brewing Method",
+    "countryModal": "Select Country",
+    "majorNotedModal": "Select majorNote",
+    "catModal": "Select Category",
+    "reset": "Reset",
+    "apply": "Apply",
+    "country": "Country",
+    "majorNote": "Major Note",
+    "minorNote": "Minor Note",
+    "flavour": "flavour",
+    "taste": "Taste",
+    "loading": "Loading...",
+    "contentError": "error",
+    "readMore": "Read More",
+    "cup": "cup",
+    "cups": "cups",
+    "more": "more",
+    "next": "next",
+    "back": "back",
+    "previous": "previous",
+    "yourCart": "Your cart",
+    "grams": "grams",
+    "noResults": "Sorry, no search result",
+    "category": "Category",
+    "trademark": "Trademark",
+    "pagination": {
+      "prev": "Go to previous page",
+      "page": "Go to page #{{page}}",
+      "next": "Go to next page"
+    },
+    "confirm": "confirm",
+    "card": "Card",
+    "stcPay": "STC Pay",
+    "applePay": "Apple Pay",
+    "and": "and",
+    "status": "Status",
+    "items": "items",
+    "item": "item",
+    "goBackToHomepage": "Go back to homepage",
+    "addToCart": "Add To Cart",
+    "downloadInvoice": "Download Invoice",
+    "other": "Other",
+    "categories": "Categories",
+    "previousCart": "Previous cart"
+  },
+  "cart": {
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Checkout",
+    "addToCartSuccess": "Successfully added to cart",
+    "addToCartError": "Something went wrong",
+    "goToCheckout": "Go to checkout",
+    "vatIncluded": "VAT Included",
+    "giftProduct": "Gift Product"
+  },
+  "orderFeedback": {
+    "scoreGood": "Good",
+    "scoreNeutral": "Neutral",
+    "scoreBad": "Bad",
+    "send": "Send",
+    "order": "Order",
+    "delivery": "Delivery",
+    "headline": "Hi!",
+    "body": "Thanks for your order {{orderId}}. Please don’t forget to rate it.",
+    "seeDetails": "See Details",
+    "noteSubtitle": "Would you like to add something?",
+    "noteLabel": "Add note (optional)",
+    "charactersLeft": "characters left",
+    "validationMessage": "Both ratings are required",
+    "notFound": {
+      "headline": "Not found",
+      "button": "Back to homepage"
+    },
+    "thanksYou": {
+      "headline": "Thanks for your feedback!",
+      "body": "We hope you have enjoyed your order!",
+      "button": "Back to homepage"
+    }
+  },
+  "checkout": {
+    "empty": "your order is empty",
+    "addAsBilling": "Add this address as your billing address too",
+    "addNewAddress": "Add new {{purpose}}",
+    "goBackToCart": "Go back to Cart",
+    "giftAddress": "gift address",
+    "billingAddress": "billing address",
+    "shippingAddress": "shipping address",
+    "pickupAddress": "pickup address",
+    "selectOrAdd": "Select or add a new {{purpose}}",
+    "selectOrAddShipping": "Select or add a new shipping address",
+    "selectOrAddBilling": "Select or add a new billing address",
+    "errors": {
+      "chooseStore": "Please choose a store",
+      "addBillingAddress": "Please add billing adress",
+      "addShippingAddress": "Please add shipping address",
+      "addGiftAddress": "Please add gift address"
+    },
+    "stepOneErrorMsg": "Please select {{addressType}}",
+    "goBackToHomepage": "Go back to homepage",
+    "goBackToOrdersHistory": "Go back to orders history",
+    "newShippingAddress": "Shipping address",
+    "newBillingAddress": "Billing address",
+    "newGiftAddress": "Add new gift address",
+    "addAddress": "Add address",
+    "sameAsShipping": "Use shipping address as a billing address"
+  },
+  "delivery": {
+    "typeSelect": "How would you like to receive your product?",
+    "storeSelect": "Which store would you like to pick up your order at?",
+    "singleStore": "Your order will be ready for pickup",
+    "selectPlaceholder": "Chose a store",
+    "packages": "Packages",
+    "pickup": "Pickup",
+    "delivery": "Delivery",
+    "pickupLocation": "Pickup Location",
+    "international": "International",
+    "internal": "Delivery",
+    "packageLabel": "Package {{index}}",
+    "productsUncompleted": "Uncompleted products",
+    "itemsPrice": "Items cost",
+    "deliveryPrice": "Delivery cost",
+    "totalPrice": "Total cost"
+  },
+  "order": {
+    "summary": "Order Summary",
+    "created": "Your order no. #{{orderNumber}} has been created",
+    "orderNumber": "Order no. #{{orderNumber}}",
+    "notifyWhenShipped": "We will inform you when it is shipped.",
+    "status": "Status: {{status}}",
+    "paymentDetails": "Payment Details",
+    "packagePrepare": "Package is being prepared...",
+    "statuses": {
+      "payment_in_progress": "Payment in progress",
+      "payment_failed": "Payment failed",
+      "payment_succeed": "Payment succeed",
+      "customer_picked_up": "Customer picked up",
+      "approved": "Approved",
+      "processing": "Processing",
+      "in_delivery": "Shipped",
+      "ready_to_pickup": "Ready to pickup",
+      "completed": "Completed",
+      "rejected": "Rejected",
+      "feedback_requested": "Feedback requested",
+      "payment_timeout": "Payment timeout",
+      "ordered": "Ordered",
+      "ready": "Ready"
+    },
+    "pendingOrder": {
+      "heading": "Your order is in progress... ",
+      "subHeading": "You have pending payment",
+      "buttonText": "Go back to payment"
+    },
+    "errors": {
+      "waitPaymentProcess": "Please wait, we are trying to process your payment",
+      "paymentFailed": "Payment failed",
+      "unexpectedError": "An unexpected error occurred",
+      "tryAgain": "Try again",
+      "tryAgainOrContact": "Please try again later or if the problem persists contact our support at:",
+      "paymentServiceProblem": "Problem with payment service",
+      "paymentFailedTryAgain": "The payment did not go through. Please try again."
+    }
+  },
+  "notFound": {
+    "heading": "Page not found",
+    "subheading": "The page you are looking for was moved, removed, renamed or might never existed.",
+    "goBackToHomepage": "Go back to homepage"
+  },
+  "inactiveProduct": {
+    "heading": "Sorry, this product is temporarily unavailable",
+    "subheading": "You can check out our other products below.",
+    "goBackToHomepage": "Go Back to homepage"
+  },
+  "notifications": {
+    "error": "there was some error",
+    "wishlist": {
+      "add": "Product successfully added to wishlist",
+      "remove": "Product successfully removed from wishlist"
+    },
+    "preferences": {
+      "success": "successfully updated {{preferenceType}} preferences"
+    },
+    "cart": {
+      "success": "Successfuly added to cart",
+      "limit": "Quantity is not available"
+    }
+  },
+  "unresolvedProducts": {
+    "heading_one": "Following product is not available for",
+    "heading_other": "Following products are not available for",
+    "info_one": "In order to continue, please pick another shipment option or remove following product from your order:",
+    "info_other": "In order to continue, please pick another shipment option or remove following products from your order:",
+    "remove": "Remove",
+    "continueWith": "Continue with",
+    "itemsRemoved": "will be removed",
+    "pickup": "pickup",
+    "delivery": "delivery"
+  },
+  "carousel": {
+    "nextSlide": "next slide",
+    "previousSlide": "previous slide"
+  },
+  "prices": {
+    "deliveryFee": "Delivery Fee",
+    "subtotal": "Subtotal",
+    "vat": "VAT",
+    "total": "Total",
+    "discount": "Discount"
+  },
+  "seo": {
+    "home": {
+      "title": "Camel Step",
+      "description": ""
+    },
+    "quiz": {
+      "title": "Camel Step | Taste Quiz",
+      "description": ""
+    },
+    "login": {
+      "title": "Camel Step | Login",
+      "description": ""
+    },
+    "howToBrew": {
+      "title": "Camel Step | How to Brew",
+      "description": ""
+    },
+    "profile": {
+      "title": "Camel Step | Profile",
+      "description": ""
+    },
+    "aboutUs": {
+      "title": "Camel Step | About Us",
+      "description": ""
+    },
+    "privacyPolicy": {
+      "title": "Camel Step | Privacy Policy",
+      "description": ""
+    },
+    "blogs": {
+      "title": "Camel Step | Blogs",
+      "description": ""
+    },
+    "locations": {
+      "title": "Camel Step | Our Branches",
+      "description": ""
+    },
+    "faq": {
+      "title": "Camel Step | FAQ",
+      "description": ""
+    },
+    "contactUs": {
+      "title": "Camel Step | Contact Us",
+      "description": ""
+    }
+  },
+  "vatInfo": {
+    "heading": "Please Note:",
+    "content": "If you would like to proceed the purchase and pick up/delivery outside Saudi Arabia Region, the VAT (%) will not be calculated."
+  },
+  "select": {
+    "variant": {
+      "color": "select color",
+      "size": "select size"
+    }
+  },
+  "badge": {
+    "new": "New",
+    "outofstock": "Out of stock",
+    "limited": "Limited Harvest",
+    "bestseller": "Bestseller",
+    "exclusive": "Exclusive"
+  },
+  "country": {
+    "brazil": "Brazil",
+    "burundi": "Burundi",
+    "colombia": "Colombia",
+    "costarica": "Costa Rica",
+    "elsalvador": "El Salvador",
+    "ethiopia": "Ethiopia",
+    "honduras": "Honduras",
+    "panama": "Panama",
+    "yemen": "Yemen",
+    "indonesia": "Indonesia",
+    "peru": "Peru",
+    "india": "India",
+    "vietnam": "Vietnam",
+    "guatemala": "Guatemala"
+  },
+  "tastes": {
+    "sweet": "sweet",
+    "brownsugar": "brown sugar",
+    "molasses": "molasses",
+    "maplesyrup": "maple syrup",
+    "carmelized": "carmelized",
+    "honey": "honey",
+    "vanilla": "vanilla",
+    "vanillin": "vanillin",
+    "overallsweet": "overall sweet",
+    "sweetaromatics": "sweet aromatics",
+    "floral": "floral",
+    "blacktea": "black tea",
+    "chamomile": "chamomile",
+    "rose": "rose",
+    "jasmine": "jasmine",
+    "fruity": "fruity",
+    "berry": "berry",
+    "blackberry": "blackberry",
+    "raspberry": "raspberry",
+    "blueberry": "blueberry",
+    "strawberry": "strawberry",
+    "driedfruit": "dried fruit",
+    "raisin": "raisin",
+    "prune": "prune",
+    "otherfruit": "other fruit",
+    "coconut": "coconut",
+    "cherry": "cherry",
+    "pomegranate": "pomegranate",
+    "pineapple": "pineapple",
+    "grape": "grape",
+    "apple": "apple",
+    "peach": "peach",
+    "pear": "pear",
+    "citrusfruit": "citrus fruit",
+    "grapefruit": "grapefruit",
+    "orange": "orange",
+    "lemon": "lemon",
+    "lime": "lime",
+    "sourfermented": "sour / fermented",
+    "sour": "sour",
+    "souraromatics": "sour aromatics",
+    "aceticacid": "acetic acid",
+    "butyricacid": "butyric acid",
+    "malicacid": "malic acid",
+    "alcoholfermented": "alcohol / fermented",
+    "winey": "winey",
+    "whiskey": "whiskey",
+    "fermented": "fermented",
+    "overripe": "overripe",
+    "greenvegetative": "green / vegetative",
+    "oliveoil": "olive / oil",
+    "raw": "raw",
+    "underripe": "under-ripe",
+    "peapod": "peapod",
+    "fresh": "fresh",
+    "darkgreen": "dark green",
+    "vegetative": "vegetative",
+    "haylike": "hay-like",
+    "herblike": "herb-like",
+    "beany": "beany",
+    "other": "other",
+    "papermusty": "paper / musty",
+    "stale": "stale",
+    "cardboard": "cardboard",
+    "papery": "papery",
+    "woody": "woody",
+    "moldydamp": "moldy / damp",
+    "mustydusty": "musty / dusty",
+    "mustyearthy": "musty / earthy",
+    "animalic": "animalic",
+    "meatybrothy": "meaty brothy",
+    "phenolic": "phenolic",
+    "chemical": "chemical",
+    "bitter": "bitter",
+    "salty": "salty",
+    "medicinal": "medicinal",
+    "petroleum": "petroleum",
+    "skunky": "skunky",
+    "rubber": "rubber",
+    "roasted": "roasted",
+    "pipetobacco": "pipe tobacco",
+    "tobacco": "tobacco",
+    "burnt": "burnt",
+    "acrid": "acrid",
+    "ashy": "ashy",
+    "smoky": "smoky",
+    "brownroast": "brown / roast",
+    "cereal": "cereal",
+    "grain": "grain",
+    "malt": "malt",
+    "spices": "spices",
+    "pungent": "pungent",
+    "pepper": "pepper",
+    "brownspice": "brown spice",
+    "anise": "anise",
+    "nutmeg": "nutmeg",
+    "cinnamon": "cinnamon",
+    "clove": "clove",
+    "nuttycocoa": "nutty / cocoa",
+    "nutty": "nutty",
+    "peanuts": "peanuts",
+    "hazelnut": "hazelnut",
+    "almond": "almond",
+    "cocoa": "cocoa",
+    "chocolate": "chocolate",
+    "darkchocolate": "dark chocolate"
+  },
+  "brewingmethod": {
+    "blackdrip": "Black / Drip",
+    "espresso": "Espresso",
+    "turkish": "Turkish",
+    "coldbrew": "Cold Brew",
+    "milkbased": "Milk-based",
+    "saudi": "Saudi",
+    "colddripcoffee": "Cold drip Coffee"
+  },
+  "coffeetype": {
+    "blackcoffee": "Black Coffee",
+    "espresso": "Espresso",
+    "turkishcoffee": "Turkish Coffee",
+    "coldbrew": "Cold Brew",
+    "tea": "Tea"
+  },
+  "place": {
+    "homeoffice": "Home & Office",
+    "travel": "Travel"
+  },
+  "aboutUs": {
+    "title": "About us",
+    "p1": "Camel Step Co. LTD for Trading and Industry led the emerging of specialty coffee market in Saudi Arabia which started its steps back in 2013 with a vision to improve the coffee quality locally and regionally. Camel Step started with a spirit of innovation reflected in its steps and plans that towards Saudi Coffee Leading Company. It is a journey filled with purpose - continuously seeking out new opportunities to improve, to grow, to adapt. Our serious actions to secure the coffee supply chain interpreted in the investment in Saudi youth through the provision of suitable work environment and improving their skills with consideration to our culture.",
+    "p2": "We step towards formulating the coffee concept.",
+    "sub1": "OUR STEPS",
+    "p3": "From the spirit of innovation, Camel Step Co lives an ambitious journey that is full of many initiatives and strategies to be one of the Expertise Houses in the Specialty Coffee market locally and globally. We aim in our journey to invest in new opportunities to improve our market position in order to adopt market changes. Camel Step is serious about its plans and our values to provide the best for Coffee Market",
+    "sub2": "SPECIALTY COFFEE",
+    "p4": "It has always been, and will always be, about quality. This passion inspires Camel Step Co to step in the Coffee Industry focusing on sourcing the finest coffee beans and provide best coffee to our customer. Our eagerness puts us in a position to be a heart or specialty coffee in the region focusing on plantation, harvesting, shipping and roasting.",
+    "sub3": "GOAL",
+    "p5": "To provide the highest quality products and services that exceed our customers' expectations, while being mindful of our impact on the environment and the communities we serve.",
+    "sub4": "VISION",
+    "p6": "To lead the coffee industry by creating value through innovative products and exceptional services."
+  },
+  "footer": {
+    "support": "Support",
+    "menu": "Menu",
+    "company": "Company",
+    "rights": "All Rights Reserved Camel Step Co. LTD © 2021",
+    "crn": "Commercial Registration Number",
+    "vrn": "Vat Registration Number",
+    "cert": "VAT Registration Certificate",
+    "twitter": "https://twitter.com/camelstep",
+    "snapchat": "https://www.snapchat.com/add/camelstep",
+    "instagram": "https://www.instagram.com/camelstep",
+    "youtube": "https://www.youtube.com/channel/UCrz2yzqYWc1tMJgqrNA-yyQ",
+    "whatsapp": "https://wa.me/966920000689",
+    "email": "online@camelstep.com",
+    "emailCopy": "Email address copied to clipboard",
+    "tel": "+966920000689",
+    "telCopy": "Phone number copied to clipboard",
+    "termsOfUse": "Terms of Use",
+    "privacyPolicy": "Privacy Policy",
+    "unitedStates": "United States | English (US) | $(USD)",
+    "languageLabel": "Change Language"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "header": "To speed up the answer to your question, please provide us with some data that will direct your message to the right person. Thank you!",
+    "tabs": {
+      "business_sales": "Business Sales",
+      "maintenance": "Maintenance and spare parts request",
+      "assist_online_purchase": "Assist with online purchase",
+      "opportunities": "Opportunitiies",
+      "training": "Training program",
+      "returns": "Returns",
+      "career_request": "Careers",
+      "complaint": "Complaint and Suggestion",
+      "other_inquiries": "Other inquiries"
+    },
+    "partner_request": {
+      "products": "Equipment & Tools",
+      "catering": "Catering Coffee",
+      "training": "Training Services",
+      "consulting": "Consulting Service",
+      "other": "Other"
+    },
+    "assist_online_purchase": {
+      "account_creation_login": "Account creation & Login",
+      "adding_to_cart_and_checkout": "Adding to card & Checkout",
+      "shipping_and_delivery": "Shipping & Delivery",
+      "order_cancellation": "Order cancellation",
+      "other": "Other"
+    },
+    "business_sales": {
+      "request_quotation": "Request a quotation",
+      "products_catalogue": "Products catalogue",
+      "consulting": "Consulting",
+      "private_label_services": "Private label services",
+      "resale_partnership": "Resale partnership",
+      "coffee_catering": "Coffee Catering"
+    },
+    "business_sales_checkboxes": {
+      "coffee_beans": "Coffee Beans",
+      "tools_and_equipments": "Tools and equipment",
+      "both": "Both"
+    },
+    "opportunities": {
+      "sponsorships": "Sponsorships Opportunities",
+      "public_relationship_service_communities": "Public relationships & Service communities",
+      "business_opportunities": "Business Opportunities"
+    },
+    "training": {
+      "personal_training": "Personal Training",
+      "corporate_training": "Training for Corporate"
+    },
+    "producttype": {
+      "label": "Select Product Type",
+      "requiredMsg": "Product Type is required"
+    },
+    "maintenancetype": {
+      "label": "Select Maintenance Type",
+      "requiredMsg": "Maintenance Type is required"
+    },
+    "maintenance_a": {
+      "grinder": "Grinder",
+      "scale": "Scale",
+      "coffeeboiler": "Coffee boiler",
+      "espressomachine": "Espresso machine",
+      "waterfiltrationsystem": "Water filtration system",
+      "other": "Other"
+    },
+    "maintenance_b": {
+      "urgentmaintenance": "Urgent maintenance",
+      "periodicmaintenance": "Periodic maintenance",
+      "filterchangerequest": "Filter change request",
+      "installation and start-up": "Installation and start-up",
+      "other": "Other"
+    },
+    "storepurchase": "Did you purchase the device from Camel Step?",
+    "citynote": "If you're not corporate partner of Camel Step kindly visit our Alrahmania Branch, we will be happy to help you.",
+    "complaint": {
+      "label": "Select Message Type"
+    },
+    "complaint_a": {
+      "suggestions": "Suggestions",
+      "complaints": "Complaints"
+    },
+    "complaint_b": {
+      "suggestions": "Suggestions",
+      "complaints": "Complaints",
+      "observations": "Observations"
+    },
+    "type": {
+      "label": "What can we help you with?",
+      "label2": "How Can We Help You?",
+      "label3": "Related To?",
+      "label4": "Select Type",
+      "requiredMsg": "Message subject is required"
+    },
+    "body": {
+      "label": "Your message"
+    },
+    "thanks": "Thank you for contacting the Camel Step team. Please note that our team operates from Sunday to Thursday.",
+    "statuses": {
+      "married": "Married",
+      "single": "Single"
+    },
+    "return": {
+      "full_return": "Full return of order",
+      "partial_return": "Partial return of order",
+      "required": "Reason for return is required",
+      "reason_of_return": "Reason for return",
+      "required_message": "This field is required",
+      "reason_of_return_options": {
+        "damaged_item": "Damaged or defective item",
+        "wrong_item": "Wrong item, size, or color",
+        "doesnt_fit": "Doesn't fit or not as described",
+        "late_delivery": "Delivered late",
+        "other": "Other"
+      }
+    },
+    "education": {
+      "none": "No formal education",
+      "primary": "Primary",
+      "intermediate": "Intermediate",
+      "secondary": "Secondary",
+      "vocational": "Educational qualification",
+      "bachelor": "Bachelor's degree",
+      "master": "Master's degree",
+      "doctorate": "Doctorate or higher"
+    },
+    "online_assistance": {
+      "reason_of_cancellation": {
+        "label": "Reason of cancellation",
+        "requiredMsg": "Reason of cancellation is required"
+      },
+      "options": {
+        "change_of_mind": "Change of Mind",
+        "delivery_delays": "Delivery Delays",
+        "incorrect_item_ordered": "Incorrect Item Ordered",
+        "modify_order": "Modify the Order",
+        "duplicate_purchase": "Duplicate Purchase",
+        "other": "Other"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Contact Name",
+        "required": "Contact name is required"
+      },
+      "number": {
+        "label": "Contact Number",
+        "required": "Contact number is required"
+      },
+      "order_id": {
+        "label": "Order id",
+        "required": "Order id is required"
+      },
+      "company_name": {
+        "label": "Company Name",
+        "required": "Company name is required"
+      },
+      "email": {
+        "label": "Email",
+        "required": "email is required"
+      },
+      "body": {
+        "label": "Your Message"
+      },
+      "cr": {
+        "label": "CR",
+        "required": "CR is required"
+      },
+      "vat": {
+        "label": "Vat",
+        "required": "Vat is required"
+      },
+      "order_details": {
+        "label": "Order details",
+        "required": "Order details are required"
+      },
+      "photo": {
+        "label": "Upload photo"
+      },
+      "title": {
+        "label": "The title",
+        "required": "Title is required"
+      }
+    },
+    "prevStep": "Fill previous step first",
+    "nextStep": "Next step"
+  },
+  "signIn": {
+    "or": "or",
+    "google": "Sign In with Google"
+  },
+  "blog": {
+    "search": "Search By Blog Title",
+    "sort": "Sort By Date",
+    "topics": "Topics:",
+    "mineofknowledge": "A mine of knowledge about coffee and more",
+    "read": "Read"
+  },
+  "blogDescription": {
+    "backtoarticles": "Go Back To Articles",
+    "read": "read",
+    "oneMinuteReadEnglish": "1 minute read",
+    "aboveOneMinutesReadEnglish": "{{number}} minutes read"
+  },
+  "promotion": {
+    "expiresLabel": "Expires in",
+    "daysLabel": "days"
+  },
+  "blogsSection": {
+    "title": "#camelstep",
+    "subtitle": "Our Journey from a community coffee spot to flourishing into an international coffee chain"
+  },
+  "bourbonSection": {
+    "title": "Coffee Arabian!",
+    "card1": {
+      "title": "Coffee of Taste",
+      "subtitle": "Taste Quiz"
+    },
+    "card2": {
+      "title": "Coffee Mastery",
+      "subtitle": "How To Brew"
+    },
+    "card3": {
+      "title": "About Us",
+      "subtitle": "Learn More"
+    }
+  },
+  "heroSection": {
+    "bestSeller": "Best Seller",
+    "popularEquipment": "Popular Equipment",
+    "newCollection": "New Arrival!",
+    "famousPackage": "Famous Package"
+  },
+  "mapSection": {
+    "title": "Our Branches",
+    "city": "City",
+    "country": "Country"
+  },
+  "locationsPage": {
+    "heroTitle": "CAMEL STEP NEAR YOU",
+    "heroContent": "We welcome you to our world of exceptional coffee experiences, where each cup tells a story of quality and community. Come explore our diverse locations and find your favorite spot to relax and enjoy the perfect cup of coffee.",
+    "branchesSectionTitle": "CAMEL STEP BRANCHES",
+    "lowerBannerTitle": "WE MAKE DAYS",
+    "lowerBannerContent": "Join us in crafting the future of Coffee",
+    "branchCard": {
+      "everyday": "Everyday",
+      "pickUpTime": "Pick Up Time",
+      "timing": "6am - 11pm",
+      "map": "Map"
+    }
+  },
+  "cookieBanner": {
+    "firstPassage": "To understand how you use our Website and to improve your experience, we collect certain important information (e.g., cookies). To learn about what we collect and why",
+    "privacyLinkLabel": "read our Privacy Policy.",
+    "passageHeading": "Essential Information",
+    "secondPassage": "This collected information is necessary to provide you with the critical features available on our Website. Because this information is essential to your experience, you are unable to alter these settings and still use the Website.",
+    "buttonText": "Accept All"
+  }
+}

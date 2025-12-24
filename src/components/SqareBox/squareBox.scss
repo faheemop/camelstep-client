@@ -1,0 +1,15 @@
+.square-box {
+  padding: 2rem;
+  background-color: $mainWhite;
+  filter: drop-shadow(-1px -1px 3px #FFFFFF) drop-shadow(1.5px 1.5px 3px rgba(174, 174, 192, 0.4));
+  border-radius: 0.4rem;
+  width: max-content;
+  position: relative;
+
+  &__inner {
+    position: absolute;
+    top: 50%;
+    left:  50%;
+    transform: translate(-50%, -50%);
+  }
+}

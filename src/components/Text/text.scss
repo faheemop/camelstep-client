@@ -1,0 +1,101 @@
+$minWidth: 320px;
+$mdWidth: 768px;
+$lgWidth: 1440px;
+
+.text {
+  line-height: 120%;
+  &-headline {
+    &--primary {
+      color: $mainGray;
+      font-weight: 700;
+      @include fluid-type($minWidth, $mdWidth, 24px, 34px);
+
+      @include respond-to('small') {
+        @include fluid-type($mdWidth, $lgWidth, 34px, 72px);
+      }
+    }
+
+    &--secondary {
+      font-weight: 700;
+      @include fluid-type($minWidth, $mdWidth, 20px, 30px);
+
+      @include respond-to('small') {
+        @include fluid-type($mdWidth, $lgWidth, 30px, 32px);
+      }
+    }
+
+    &--tertiary {
+      font-weight: 700;
+      @include fluid-type($minWidth, $mdWidth, 18px, 24px);
+
+      @include respond-to('small') {
+        font-size: 2.4rem;
+      }
+    }
+  }
+
+  &-subtitle {
+    color: $mainGray;
+
+    &--primary {
+      font-weight: 500;
+      font-size: 1.6rem;
+    }
+
+    &--secondary {
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+  }
+
+  &-body {
+    font-weight: 400;
+
+    &--primary {
+      font-size: 1.6rem;
+      color: $colorBlack;
+    }
+
+    &--secondary {
+      font-size: 1.4rem;
+      color: $mainGray;
+    }
+
+    &--third {
+      font-size: 1.4rem;
+      color: red;
+    }
+  }
+
+  &-btn {
+    font-weight: 500;
+
+    &--p {
+      @include fluid-type($minWidth, $mdWidth, 14px, 16px);
+
+      @include respond-to('small') {
+        font-size: 1.6rem;
+      }
+    }
+
+    &--s {
+      @include fluid-type($minWidth, $mdWidth, 12px, 14px);
+
+      @include respond-to('small') {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  &-caption {
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+
+  &-overline {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $secondaryGray;
+    font-size: 1.2rem;
+  }
+}

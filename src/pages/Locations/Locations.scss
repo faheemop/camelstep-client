@@ -1,0 +1,351 @@
+.container {
+    max-width: 256rem !important;
+    padding: 0 !important;
+}
+
+.locations-hero-section,
+.locations-lower-banner {
+    display: flex;
+    height: 47rem;
+    overflow: hidden;
+
+    @media (max-width: 1024px) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-label-container,
+    .lower-banner-label-container {
+        background-color: $lightBeige;
+        width: 52%;
+
+        @media (max-width: 1024px) {
+            height: 250px;
+            width: 100%;
+
+        }
+
+        .hero-label,
+        .lower-banner-label {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: start;
+            color: white;
+
+            @media (max-width: 1024px) {
+                height: 250px;
+                align-items: center;
+                text-align: center;
+            }
+
+            .hero-label-title,
+            .lower-banner-label-title {
+                width: 50rem;
+                font-size: 3.5rem;
+                margin-bottom: 1rem;
+                font-weight: 600;
+
+                @media (max-width: 768px) {
+                    font-size: 2.6rem;
+                    margin-bottom: 1.5rem;
+                }
+            }
+
+            .hero-label-subtitle,
+            .lower-banner-label-subtitle {
+                width: 50rem;
+                font-size: 1.7rem;
+
+                @media (max-width: 768px) {
+                    font-weight: 400;
+                    font-size: 14px;
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    .hero-section-image-container,
+    .lower-banner-image-container {
+        width: 48%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        .hero-section-image,
+        .lower-banner-image {
+            height: 100%;
+            width: auto;
+            object-fit: cover;
+        }
+
+        @media (max-width: 1024px) {
+            width: 100%;
+
+            .hero-section-image,
+            .lower-banner-image {
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.branch-selector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 6rem;
+
+    button {
+        background: transparent;
+        border: none;
+        font-size: 1.5rem;
+        color: $colorInactive;
+        font-weight: bold;
+        margin: 1rem 0.5rem;
+        cursor: pointer;
+
+        &.clicked {
+            color: $secondaryGray;
+            text-decoration: underline;
+        }
+    }
+}
+
+.branch-countries {
+    display: flex;
+}
+
+.text-heading {
+    color: $mainBlue;
+    font-size: 3.5rem;
+    font-weight: bold;
+
+    @include respond-to("mobile") {
+        font-size: 2.25rem;
+    }
+}
+
+.cards-container-heading {
+    padding: 2.5rem 0;
+    width: 90%;
+    margin: 0 auto;
+    text-transform: uppercase;
+
+    @media (min-width: 1540px) {
+        margin-left: 13rem;
+    }
+}
+
+.branch-cards-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    overflow-y: auto;
+
+    @media (max-width: 1024px) {
+        height: 140rem;
+    }
+
+    height: 99rem;
+
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 2rem;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}
+
+.branch-card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0rem auto;
+    margin-bottom: 4rem;
+    padding: 3rem;
+    background-color: $darkWhite;
+
+    @include respond-to("mobile") {
+        flex-direction: column;
+        padding: 0;
+        width: 80%;
+
+    }
+}
+
+.branch-card-image-container {
+    display: flex;
+    width: 65rem;
+    max-width: 65rem;
+    align-items: center;
+    justify-content: center;
+
+    @include respond-to("mobile") {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    @media (min-width: 1025px) {
+        width: 60rem;
+        max-width: 60rem;
+    }
+
+    .card-image {
+        width: 43rem;
+        height: 43rem;
+        object-fit: cover;
+
+        @include respond-to("mobile") {
+            width: 80vw;
+            height: 80vw;
+        }
+    }
+
+    .arrow-icon {
+        height: 2rem;
+        width: 2rem;
+
+        @include respond-to("mobile") {
+            height: 1rem;
+            width: 1rem;
+            margin-top: 2rem;
+        }
+    }
+
+    .left-arrow {
+        margin-right: 2rem;
+
+        @include respond-to("mobile") {
+            margin-right: 1rem;
+        }
+    }
+
+    .right-arrow {
+        margin-left: 2rem;
+
+        @include respond-to("mobile") {
+            margin-left: 1rem;
+        }
+    }
+
+    button {
+        background-color: transparent;
+        border: none;
+    }
+}
+
+.card-text-box {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 100%;
+
+    @media (min-width: 1024px) {
+        padding: 3.5rem;
+        width: 40rem;
+    }
+
+    >p,
+    .branch-card-map {
+        font-size: 1.5rem;
+        color: $mainBeige;
+    }
+
+    >Button {
+        margin: 1rem 0;
+        width: 20rem;
+        background-color: $lightBlue;
+    }
+
+    .branch-card-title {
+        font-weight: bold;
+        max-width: 24rem;
+
+        @include respond-to("mobile") {
+            max-width: 18rem;
+        }
+    }
+
+    .branch-card-address {
+        max-width: 20rem;
+    }
+
+    .branch-card-map {
+        background-color: transparent;
+        border: none;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .branch-card-number,
+    .branch-card-map {
+        font-weight: bold;
+        text-decoration: underline;
+        text-align: start;
+    }
+}
+
+.lower-banner-label {
+    >Button {
+        margin: 2rem 0 0 0;
+        width: 20rem;
+    }
+}
+
+.map-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locations-map-section {
+    box-sizing: border-box;
+    margin: 3rem;
+    padding: 3rem;
+    min-width: 95%;
+    max-width: 150rem;
+    background-color: $darkWhite;
+
+    @media (min-width: 1540px) {
+        width: 150rem !important;
+    }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    right: 0;
+
+    &:after {
+        font-size: 2rem;
+        color: $darkWhite !important;
+        font-weight: bolder !important;
+    }
+}
+
+.swiper-pagination-bullet-active {
+    background-color: $darkWhite !important;
+
+}

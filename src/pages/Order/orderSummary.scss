@@ -1,0 +1,27 @@
+.order-summary {
+  &__content {
+    max-width: 768px;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    .loading-spinner {
+      font-size: 0.5rem;
+      margin: 0;
+      margin-inline-end: 3rem;
+    }
+  }
+
+  .payment-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    .payment-method {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      font-variant-numeric: tabular-nums;
+    }
+  }
+}

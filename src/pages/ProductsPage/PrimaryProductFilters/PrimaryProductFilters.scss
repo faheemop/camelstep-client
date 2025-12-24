@@ -1,0 +1,14 @@
+.primary-filter-container{
+  display: flex;
+}
+
+.coffee-filters-container{
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+
+  @media (min-width: 768px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}

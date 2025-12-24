@@ -1,0 +1,48 @@
+.other-stuff {
+
+  .swiper {
+    @include respond-to('mobile') {
+      width: 100vw;
+      left: -2.5rem;
+    }
+  }
+  [dir="rtl"] & .swiper {
+    @include respond-to('mobile') {
+      width: 100vw;
+      left: inherit;
+      right: -2.5rem;
+    }
+  }
+  
+  &-item {
+    display: block;
+    padding: 1rem;
+    padding-block-start: 3rem;
+    text-align: center;
+    position: relative;
+
+    .product-badges {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    &__image {
+      width: 100%;
+      max-width: max(7rem, 10vmin);
+      display: block;
+      margin-inline: auto;
+    }
+
+    &__name {
+      margin-block-start: 2rem;
+      margin-block-end: 1rem;
+    }
+
+    &__price {
+      margin-block-end: 1rem;
+    }
+  }
+
+ 
+}

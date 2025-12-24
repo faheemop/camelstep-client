@@ -1,0 +1,11 @@
+.svg-icon path {
+  fill: inherit;
+}
+
+.icon-delete {
+  border-radius: 10rem;
+  box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+  background-color: $mainWhite;
+  cursor: pointer;
+  fill: blue;
+}

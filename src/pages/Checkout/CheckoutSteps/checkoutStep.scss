@@ -1,0 +1,15 @@
+.checkout-step {
+  &__heading {
+    text-transform: capitalize;
+  }
+
+  &-one {
+    .address-block {
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+.same-as-shipping {
+  margin-bottom: 2rem;
+}

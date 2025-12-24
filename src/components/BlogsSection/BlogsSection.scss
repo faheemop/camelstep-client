@@ -1,0 +1,114 @@
+.blog-section-wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #F9F9F9;
+}
+
+.blog-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10.2rem;
+    margin-bottom: 5rem;
+    padding: 0 13rem;
+    max-width: 1440px;
+    width: 100%;
+
+    @media (max-width: 768px) {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    @media (max-width: 1023px) {
+        padding: 0 1.5rem;
+    }
+    
+    @media (min-width: 1024px) and (max-width: 1240px) {
+        padding: 0 3.0rem;
+    }
+    
+    .section-label{
+        font-size: 4.2rem;
+        color: $mainBlue;
+        font-weight: 700;
+        margin-bottom: 1.8rem;
+    }
+
+    .section-subtitle{
+        font-size: 1.6rem;
+        color: $mainBlue;
+        font-weight: 700;
+        margin-bottom: 6.2rem;
+    }
+
+    .blog-cards-section{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+        width: 100%;
+        justify-content: center;
+
+        @media (min-width: 1024px) and (max-width: 1240px) {
+            justify-content: space-around;
+            gap: 1rem;
+        }
+
+        @media (min-width: 1241px) {
+            gap: 3.2rem;
+        }
+
+        .blog-card{
+            width: 20%;
+            height: 20.9rem;
+            position: relative;
+            overflow: hidden;
+
+            @media (max-width: 763px) {
+                height: 18rem;
+                width: 48%;
+            }
+
+            @media (min-width: 764px) and (max-width: 1023px) {
+                width: 32%;
+            }
+    
+            @media (min-width: 1024px) {
+                width: 17%;
+            }
+
+
+            .card-link{
+                width: 100%;
+                height: 100%;    
+                display: flex;
+            }
+
+            &:hover{
+                .card-image{
+                    transform: scale(1.1);
+                }
+            }
+
+            .card-image{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                transition-property: all;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                transition-duration: 500ms;
+            }
+
+            .link-icon{
+                position: absolute;
+                z-index: 10;
+                top: 1.3rem;
+                right: 2rem;
+            }
+
+        }
+    }
+}

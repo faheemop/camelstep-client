@@ -1,0 +1,48 @@
+.btn-radio {
+  background-color: $mainWhite;
+  box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: $mainBlue;
+  padding: 0 1rem;
+  min-width: 12rem;
+  border: 2px solid $mainWhite;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 4rem;
+  cursor: pointer;
+
+  &.error {
+    border: 1px solid $colorError;
+  }
+
+  &.selected {
+    background-color: $mainBlue;
+    box-shadow: -1px -1px 3px #ffffff, 2.5px 2.5px 3px rgba(174, 174, 192, 0.4);
+    border: 2px solid $mainBlue;
+    color: white;
+  }
+
+  &__input {
+    visibility: hidden;
+    appearance: none;
+    position: absolute;
+  }
+
+  &__text {
+    margin-inline-start: 1rem;
+  }
+}
+
+input:checked + .btn-radio {
+  box-shadow: inset -1px -1px 1px rgba(255, 255, 255, 0.7),
+    inset 1.5px 1.5px 1px rgba(174, 174, 192, 0.2), -1px -1px 3px #ffffff,
+    1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+}
+
+input:disabled + .btn-radio {
+  cursor: not-allowed;
+  opacity: 0.7;
+}

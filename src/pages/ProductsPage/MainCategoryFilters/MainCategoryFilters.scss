@@ -1,0 +1,42 @@
+.main-category-filters-container{
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 5.5rem;
+  flex-wrap: wrap;
+
+  .main-filter-option{
+    color: $mainBlue;
+    font-size: 30px;
+    cursor: pointer;
+
+    &.selected{
+      font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 20px;
+    }
+
+    &:hover{
+      text-decoration: underline;
+      text-underline-offset: 20px;
+    }
+
+  }
+  @media(max-width: 768px) {
+    margin-bottom: 3.5rem;
+
+    .main-filter-option{
+      font-size: 24px;
+
+      &.selected{
+        text-underline-offset: 10px;
+      }
+    }
+  }
+
+  @media(max-width: 540px) {
+
+    .main-filter-option{
+      font-size: 20px;
+    }
+  }
+}

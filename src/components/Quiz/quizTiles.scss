@@ -1,0 +1,77 @@
+.quiz-tiles {
+  width: 100%;
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+
+  &.odd {
+    .quiz-tiles__item {
+      &:last-child {
+        grid-column: auto / span 2;
+      }
+    }
+  }
+
+  &.many {
+    grid-template-columns:repeat(auto-fit, minmax(33.33%, 1fr));
+
+    .quiz-tiles__item {
+      &:last-child {
+        grid-column: auto;
+
+        @include respond-to('mobile') {
+          grid-column: auto / span 2;
+        }
+      }
+    }
+
+    @include respond-to('mobile') {
+      grid-template-columns:repeat(auto-fit, minmax(50%, 1fr));
+    }
+  }
+
+  &__item {
+    padding: 1rem;
+    text-align: center;
+    transition: 100ms linear;
+    position: relative;
+    min-height: 30vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+
+    @include respond-to('medium') {
+      padding: 2rem;
+      min-height: initial;
+    }
+
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 1rem;
+      z-index: 1;
+    }
+
+    .checked-icon {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      width: 4rem;
+      height: 4rem;
+    }
+    &.capitalize {
+      text-transform: capitalize;
+    }
+  }
+
+  &__img {
+    width: 80%;
+    max-width: 7rem;
+    display: block;
+    margin-inline: auto;
+    margin-block-end: 1rem;
+  }
+}

@@ -1,0 +1,9 @@
+.btn-cart {
+  position: relative;
+  .product-count-badge {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 100%);
+  }
+}

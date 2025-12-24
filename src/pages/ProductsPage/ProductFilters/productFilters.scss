@@ -1,0 +1,36 @@
+$gapWidth: 2rem;
+
+.product-filters {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: $gapWidth;
+  row-gap: calc($gapWidth * 2);
+
+  &__submit, &__taste-wheel {
+    width: 100%;
+
+    @include respond-to ('x-small') {
+      width: auto;
+    }
+  }
+
+  .custom-select,
+  .dropdown {
+    flex-basis: 100%;
+
+    @include respond-to('x-small') {
+      flex-basis: calc(50% - calc($gapWidth / 2));
+    }
+
+    @include respond-to('medium') {
+      flex-basis: auto;
+    }
+  }
+  .custom-select__value,
+  .custom-select__options {
+    text-transform: capitalize;
+  }
+  &--mobile {
+    display: flex;
+  }
+}

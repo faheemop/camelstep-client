@@ -1,0 +1,145 @@
+.quiz {
+  .text-headline--primary {
+    color: $mainBlue;
+  }
+
+  .stepper--horizontal {
+    .stepper-indicator {
+      @include respond-to('medium') {
+        flex-direction: column;
+        margin-top: 150%;
+      }
+    }
+  }
+
+  .flex {
+    flex-direction: column;
+
+    @include respond-to('medium') {
+      flex-direction: row;
+    }
+  }
+
+  .stepper--vertical {
+    .stepper-indicator-wrapper {
+      flex-basis: 100%;
+    }
+  }
+
+  .stepper--horizontal {
+    .stepper-indicator-wrapper {
+      flex-basis: auto;
+    }
+  }
+}
+
+.container-grid {
+  display: block;
+  padding: 0;
+  @include respond-to('medium') {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.quiz-page {
+  flex-direction: column;
+  height: 100%;
+  flex-basis: 100%;
+
+  @include respond-to('medium') {
+    flex-direction: row;
+  }
+}
+
+.option-placeholder{
+  padding: 1rem 0px;
+  color: $colorInactive;
+  text-align: center;
+  width: 250px;
+}
+
+.quiz-options-wrapper {
+  display: none;
+  @include respond-to('medium') {
+    display: flex;
+    align-items: center;
+    max-height: 8.7rem;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+.quiz-options {
+  align-self: flex-start;
+  position: relative;
+  margin-inline-end: 2rem;
+  text-align: center;
+  min-width: min(25rem, 50%);
+
+  &-inner {
+    transition: 300ms linear;
+  }
+  &__item {
+    color: $colorInactive;
+    padding: 1rem 0;
+
+    &.selected {
+      color: $mainBlue;
+    }
+    &.capitalize {
+      text-transform: capitalize;
+    }
+  }
+
+  &__switcher {
+    .arrow-btn {
+      display: block;
+    }
+    .arrow-btn.down {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.quiz-tiles .quiz__option .quiz__details {
+  h1 {
+    min-height: 30rem;
+  }
+}
+
+.quiz-details {
+  width: 100%;
+}
+
+.btn-wrap {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+
+  @include respond-to(medium) {
+    margin-bottom: 5%;
+    justify-content: flex-start;
+  }
+  fieldset {
+    width: min(140px, 100%);
+    margin-inline: 0;
+    flex-shrink: 0;
+  }
+}
+
+.quiz-question-text {
+  margin: 3rem 0;
+  text-align: center;
+
+  @include respond-to('medium') {
+    margin: 0;
+    text-align: left;
+  }
+}

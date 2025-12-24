@@ -1,0 +1,21 @@
+.stepper-indicator {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    font-size: 2.4rem;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: $colorInactive;
+
+    &.active {
+      color: $mainBlue;
+    }
+
+    &.no-cursor {
+      cursor: default;
+    }
+  }
+}

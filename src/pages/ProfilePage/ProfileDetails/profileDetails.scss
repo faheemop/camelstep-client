@@ -1,0 +1,26 @@
+.profile-details {
+  form {
+    position: relative;
+    margin-bottom: 5rem;
+
+    input {
+      width: 100%;
+    }
+
+    .form__submit-btn {
+      width: 100%;
+      @include respond-to('medium') {
+        width: 60%;
+      }
+      &:not(.wide) {
+        @include respond-to('medium') {
+          width: 40%;
+        }
+      }
+    }
+
+    .alert {
+      margin-top: 1rem;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.product-count-badge {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 10rem;
+  background-color: $mainWhite;
+  background: #F7F7F7;
+  box-shadow: -1px -1px 3px #FFFFFF, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}

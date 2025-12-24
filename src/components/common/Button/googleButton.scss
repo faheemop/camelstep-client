@@ -1,0 +1,11 @@
+.google-button {
+  width: 345px;
+  height: 3.5rem;
+  display: flex;
+
+  >div {
+    flex: 1 !important;
+    width: 100% !important;
+    height: 3.5rem !important;
+  }
+}

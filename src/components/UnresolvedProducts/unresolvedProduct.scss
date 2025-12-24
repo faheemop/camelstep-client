@@ -1,0 +1,136 @@
+.unresolved-product {
+  display: block;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+
+    & .product-preview {
+      @include respond-to('x-small') {
+        margin-block-start: 3rem;
+        width: 8rem;
+        margin-inline-start: 2rem;
+      }
+    }
+  }
+
+  &-modal {
+    &__actions {
+      margin-block-start: 1rem;
+      display: flex;
+      gap: 1rem;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      @include respond-to('x-small') {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .btn {
+        margin: 0;
+      }
+    }
+  }
+
+  &__name {
+    font-size: 14px;
+    line-height: 142%;
+    text-align: right;
+    letter-spacing: 0.005em;
+    font-weight: 500;
+  }
+
+  &__price {
+    text-align: right;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-block-start: 0.8rem;
+  }
+
+  &__remove {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    &-text {
+      color: $colorError;
+    }
+    .product-count-badge {
+      background-color: $colorError;
+      color: $colorWhite;
+    }
+  }
+
+  &__product-info {
+    text-align: right;
+  }
+
+  &__badges {
+    display: flex;
+    padding-block-start: 2rem;
+  }
+
+  &__hint {
+    display: flex;
+    padding-block-start: 1rem;
+  }
+
+  &__hint-text {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    overflow-wrap: break-word;
+  }
+
+  &__badge-wrapper {
+    padding-inline: 0.2rem;
+  }
+
+  &__product-view {
+    position: relative;
+
+    @include respond-to('x-small') {
+      flex-basis: 50%;
+    }
+  }
+
+  &__drop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+
+    position: static;
+    width: 101px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    background: #f7f7f7;
+    box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+    border-radius: 100px;
+  }
+
+  &__right-box {
+    display: flex;
+    justify-content: center;
+    padding-block-start: 1rem;
+  }
+
+  &__delete:hover,
+  &__plus-icon:hover,
+  &__minus-icon:hover {
+    cursor: pointer;
+  }
+
+  &__divider {
+    margin: 2rem 0;
+  }
+}

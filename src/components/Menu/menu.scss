@@ -1,0 +1,158 @@
+.menu {
+  padding: 5rem;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  top: 0;
+  background-color: $colorWhite;
+  z-index: 200;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: 300ms;
+  width: 100%;
+
+  @include respond-to('small') {
+    width: 50rem;
+  }
+
+  @include respond-to('medium') {
+    width: 74rem;
+  }
+
+  &.open {
+    transform: translateX(0%);
+    box-shadow: 10px 30px 120px rgba(7, 7, 7, 0.09);
+  }
+
+  .menu__nav {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .menu__link {
+    transition: 100ms linear;
+    transform: translateX(0px);
+    transform-origin: bottom right;
+    display: inline-block;
+    &[type="button"] {
+      background: none;
+      border: 0;
+      padding: 0;
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: inherit;
+      color: $mainBlue;
+      cursor: pointer;
+    }
+  }
+
+  .menu__item {
+    margin-block-end: 2.4rem;
+    color: $mainBlue;
+    line-height: 100%;
+    display: block;
+
+    &:hover {
+      .menu__link {
+        color: $lightBlue !important;
+        transform: translateX(0.5rem);
+      }
+    }
+
+    @include respond-to('xx-large') {
+      margin-block-end: 3.2rem;
+    }
+  }
+
+  .menu__top {
+    .menu__item {
+      &:first-child {
+        margin-block-start: 0;
+      }
+    }
+  }
+
+  .menu__bottom {
+    margin-block-start: 4rem;
+  }
+
+  &__close {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+  }
+
+  .menu__close,
+  .menu__item {
+    cursor: pointer;
+  }
+
+  &__socials {
+    list-style: none;
+    padding-inline-start: 0;
+    display: flex;
+    gap: 1rem;
+    margin-inline-start: -4rem;
+
+    @include respond-to('small') {
+      margin-inline-start: 0;
+    }
+    svg:not(:last-child) {
+      margin-inline-end: 1rem;
+    }
+    img {
+      height: 3rem;
+      pointer-events: none;
+      transition: all .2s ease-in-out;
+    }
+    a, button {
+      display: flex;
+      align-items: center;
+      justify-items: center;
+    }
+    button {
+      border: 0;
+      background-color: transparent;
+      padding: 0;
+      cursor: pointer;
+    }
+    li:hover img {
+      transform: translateY(-30%);
+    }
+    .non-copy {
+      display: block;
+      @include respond-to('small') {
+        display: none;
+      }
+      & + li {
+        display: none;
+        @include respond-to('small') {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+html[dir='rtl'] {
+  .menu {
+    transform: translateX(-100%);
+    left: 0;
+    right: initial;
+
+    &.open {
+      transform: translateX(0%);
+    }
+
+    &__close {
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+      right: initial;
+    }
+  }
+}
+

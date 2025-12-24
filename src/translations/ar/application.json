@@ -1,0 +1,1127 @@
+{
+  "login": {
+    "headerText": "الدخول بواسطة رقم الجوال",
+    "agreementTextPartOne": "بإستخدامي لرقم الجوال, أوافق على الشروط والأحكام ",
+    "agreementLink": "الشروط والأحكام.",
+    "agreementTextPartTwo": "!شكرا لكم",
+    "signIn": "تسجيل الدخول",
+    "numberVerificationHeader": "رمز التحقق",
+    "notReceiveVerificationCode": "اعادة ارسال رمز التحقق؟",
+    "confirmCode": "المتابعة",
+    "phoneError": "رقم الجوال غير صحيح",
+    "captchaError": "كلمة التحقق مطلوبة"
+  },
+  "menu": {
+    "quiz": "اختبار التذوق",
+    "products": "المنتجات",
+    "howToBrew": "طريقة التحضير",
+    "aboutUs": "من نحن",
+    "blog": "المدونة",
+    "support": "الدعم",
+    "terms": "الشروط والأحكام",
+    "policy": "السياسات والخصوصية",
+    "returns": "سياسة الإسترجاع",
+    "faq": "الأسئلة الشائعة",
+    "help": "هل تريد المساعة؟",
+    "contact": "اتصل بنا",
+    "locations": "فروعنا"
+  },
+  "products": {
+    "title": "منتجاتنا",
+    "archiveInfo": "عميلنا العزيز جميع المنتجات التالية غير متوفرة حاليا",
+    "product": {
+      "notFound": "غير متوفر بالمخزن",
+      "inStock": "في المخزن {{count}} متوفر",
+      "outOfStock": "غير متوفر",
+      "addToCart": "اضف للسلة - {{price}}",
+      "beansInfo": "للحصول على نتيجة مثلى، الرجاء طحن القهوة عند التحضير",
+      "details": "التفاصيل",
+      "howToBrew": "طريقة الإعداد؟",
+      "howToBrewInfo": "يتم حمص القهوة خصيصا لكم، وبتم شحنها عادة خلال 2-3 ايام عمل",
+      "recommendedMethod": "طرق الإعداد المقترحة",
+      "mightNeed": "قد تحتاج",
+      "includedProducts": "يتضمن هذا الحزمة",
+      "moreCoffees": "خيارات قهوة أخرى",
+      "readInfo": "اقرأ الوصف",
+      "variants": "الإيحائات",
+      "modificators": "إضافات",
+      "disabledWishlist": "يتطلب تسجيل الدخول، لتتمكن من الإضافة لقائمة الأمنيات",
+      "variantRequired": "جميع الحقول المختلفة مطلوبة",
+      "vatIncluded": "شامل ضريبه القيمة المضافة",
+      "priceInclVat": "السعر شامل الضريبة",
+      "priceExecVatSar": "السعر غير شامل الضريبة",
+      "currencyLabel": "SAR"
+    },
+    "youWillNeed": ":قد تحتاج"
+  },
+  "howToBrew": {
+    "cupsText": "عدد الأكواب المعدة؟",
+    "tasteText": "كيف تفضل قهوتك؟",
+    "barista": "التعديل كباريستا",
+    "options": {
+      "grams": "جرام",
+      "temperature": "درجة الحرارة",
+      "waterAmount": "كمية الماء",
+      "ratio": "النسبة"
+    },
+    "validation": {
+      "notEmpty": "يجب الا تكون فارغة {{name}}",
+      "lessThan": "{{limit}} لا يمكن ان يكون اقل من{{name}}",
+      "number": "يجب أن يكون رقم {{name}}"
+    },
+    "youWillNeed": "قد تحتاج هذه الأدوات",
+    "how": "طريقة الإعداد",
+    "readyTools": "الأدوات المتطلبة",
+    "somethingWentWrong": "حدث خطأ"
+  },
+  "quiz": {
+    "viewAllCoffees": "استعراض جميع منتجات القهوة ",
+    "viewAllProducts": "مشاهدة جميع المنتجات",
+    "savePreferences": "حفظ إلى المفضلة",
+    "buy": "شراء - ",
+    "similarCoffees": "قهوة مشابهة:",
+    "howToBrew": "طريقة الإعداد",
+    "checkOut": {
+      "coffee": "تحقق من قهوتك:",
+      "equipment": "تحقق من أدواتك:"
+    },
+    "selectOption": "الخيارات"
+  },
+  "navbar": {
+    "products": "المنتجات",
+    "wishlist": "قائمة الرغبات",
+    "cart": "عربة التسوق",
+    "profile": "الملف الشخصي"
+  },
+  "profile": {
+    "greeting": "مرحبا!",
+    "nav": {
+      "details": "معلومات الحساب",
+      "email": "معلومات البريد الإلكتروني",
+      "login": "تفاصيل تسجيل الدخول",
+      "addresses": "العنوان",
+      "wishlist": "أمنياتي",
+      "orders": "طلباتي",
+      "preferences": "تفضيلات المنتجات",
+      "notifications": "التنبيهات"
+    },
+    "addresses": {
+      "info": "عنوان الشحن",
+      "noAddresses": "إضافة عنوان؟",
+      "addressPurposeTitle": "العنوان {{addressPurpose}}",
+      "defaultAddressLabel": "الإفتراضي",
+      "setAsDefault": "تعيين كافتراضي"
+    },
+    "preferences": {
+      "info": "",
+      "edit": "تعديل التفضيلات",
+      "coffee": {
+        "noPreferences": "لا يوجد تفضيلات ",
+        "button": "إضافة تفضيلات القهوة"
+      },
+      "tools": {
+        "noPreferences": "لا توجد تفضيلات",
+        "button": "إضافة تفضيلات الأدوات"
+      }
+    },
+    "notifications": {
+      "info": "طريقة استلام التنبيهات",
+      "tableHeading": "نوع التنبيهات",
+      "products": "تنبيهات تواجد المنتجات",
+      "discounts": "تنبيهات الخصومات",
+      "orders": "حالة الطلب",
+      "ordersInfo": "(الحد الأدنى للتنبيهات هو واحد)",
+      "wishList": "سيتم إشعارك بالتنبيهات، في حال توفر المنتج"
+    },
+    "wishList": {
+      "wishlistEmpty": "السلة فارغة"
+    },
+    "orders": {
+      "noOrders": "لا يوجد أي طلب",
+      "orderNumber": "رقم الطلب",
+      "orderDate": "تاريخ الطلب",
+      "orderStatus": "حالة الطلب",
+      "orderTotal": "مجمع الطلب",
+      "seeDetails": "تفاصيل إضافية",
+      "shipmentDate": "رقم الشحنة"
+    },
+    "profileDetails": {
+      "updateSuccess": "تم التعديل بنجاح"
+    },
+    "emailDetails": {
+      "sent": "تم إرسال رابط التحقق إلى بريدك الإلكتروني.",
+      "updateSuccess": "تم التحقق من عنوان البريد الإلكتروني بنجاح",
+      "updateFailed": "فشل التحقق من البريد الإلكتروني. حاول مرة اخرى."
+    }
+  },
+  "payments": {
+    "title": "طريقة الدفع",
+    "buttonText": "{{currency}} {{amount}} أدفع"
+  },
+  "forms": {
+    "generalError": "حدث خطأ، الرجاء المحاولة مرة أخرى",
+    "firstName": {
+      "label": "الأسم الأول",
+      "required": "الأسم الأول الزامي"
+    },
+    "lastName": {
+      "label": "الاسم الأخير",
+      "required": "الاسم الأخير إلزامي"
+    },
+    "fullName": {
+      "label": "الأسم كامل",
+      "requiredMsg": "الحقل إلزامي",
+      "validationMsg": {
+        "short": "الإسم قصير",
+        "long": "الإسم طويل ",
+        "specialCharacters": "يجب ألا يتضمن الاسم أي أحرف خاصة"
+      }
+    },
+    "nameOnCard": {
+      "label": "الإسم على البطاقة",
+      "requiredMsg": "الحقل إلزامي",
+      "validationMsg": "الإسم قصير"
+    },
+    "email": {
+      "label": "الإيميل",
+      "requiredMsg": "الحقل إلزامي",
+      "validationMsg": "الإيميل المدخل غير صحيح"
+    },
+    "phoneNumber": {
+      "label": "رقم الجوال",
+      "requiredMsg": "الحقل إلزامي",
+      "validationMsg": "يجب أن يكون رقم",
+      "successMsg": "تم تحديث رقم الجوال بنجاح"
+    },
+    "otp": {
+      "label": "رمز التحقق",
+      "requiredMsg": "رمز التحقق مطلوب",
+      "resend": "إعادة الإرسال",
+      "in": "في",
+      "seconds": "ثواني"
+    },
+    "addAddress": "إضافة عنوان",
+    "invalidAddress": "عنوان الوجهة غير صالح",
+    "addressline1": {
+      "label": "العنوان 1",
+      "requiredMsg": "العنوان إلزامي",
+      "toLong": "تم الوصول إلى الحد الأقصى لعدد الأحرف"
+    },
+    "addressline2": {
+      "label": "العنوان 2",
+      "requiredMsg": "الحقل إلزامي",
+      "toLong": "تم الوصول إلى الحد الأقصى لعدد الأحرف"
+    },
+    "city": {
+      "label": "ابحث عن مدينتك",
+      "requiredMsg": "المدينة إلزامية"
+    },
+    "country": {
+      "label": "الدولة",
+      "requiredMsg": "الدولة إلزامية",
+      "notSupported": "البلد غير مدعوم"
+    },
+    "zip": {
+      "label": "الرمز البريدي",
+      "requiredMsg": "الرمز البريدي إلزامي",
+      "validationMsg": "الرمز البريدي غير صحيح"
+    },
+    "addressPurpose": {
+      "billing": "الفواتير",
+      "shipping": "الشحن",
+      "gift": "إهداء",
+      "label": "نوع العنوان",
+      "requiredMsg": "يجب اختيار نوع العنوان"
+    },
+    "card": {
+      "label": "رقم بطاقة الدفع",
+      "requiredMsg": "رقم بطاقة الدفع إلزامي",
+      "validationMsg": "رقم البطاقة قصير"
+    },
+    "expiryDate": {
+      "label": "تاريخ الإنتهاء",
+      "requiredMsg": "تاريخ إنتهاء البطاقة إلزامي",
+      "validationMsg": "تاريخ الإنتهاء قصير",
+      "old": "البطاقة منتهية الصلاحية"
+    },
+    "cvv": {
+      "label": "رمز الحماية",
+      "requiredMsg": "رمز الحماية على البطاقة إلزامي",
+      "validationMsg": "رمز الحماية قصير"
+    },
+    "present": {
+      "characterPlural": "السمات",
+      "characterSingular": "السمة",
+      "charactersLeft": "{{charactersLeft}} {{character}} متبقية",
+      "notePlaceholder": "إضافة وصف (اختياري)",
+      "sendAsPresent": "الإرسال كهدية"
+    },
+    "giftCode": {
+      "label": "أدخل رمز الهدية",
+      "successMsg": "تم إدخال الرمز بنجاح"
+    },
+    "nationality": {
+      "label": "الجنسية",
+      "requiredMsg": "الجنسية مطلوبة"
+    },
+    "age": {
+      "label": "العمر",
+      "requiredMsg": "العمر مطلوب",
+      "validationMsg": {
+        "young": "لا يمكن أن يكون عمر المرشح أقل من 18 عامًا.",
+        "old": "لا يمكن أن يكون عمر المرشح أكبر من 60 عامًا"
+      }
+    },
+    "status": {
+      "label": "الحالة الاجتماعية",
+      "requiredMsg": "الحالة الاجتماعية مطلوبة"
+    },
+    "education": {
+      "label": "المؤهل التعليمي",
+      "requiredMsg": "المؤهل التعليمي مطلوب"
+    },
+    "preferredWorkingCity": {
+      "label": "المدينة التي تفضل العمل بها",
+      "requiredMsg": "يتطلب وجود المدينة"
+    },
+    "diffCityKSA": {
+      "label": "هل يمكنك العمل في مدينة أخرى داخل المملكة؟",
+      "requiredMsg": "هذا الخيار مطلوب"
+    },
+    "file": {
+      "label": "تم استئناف التحميل",
+      "label2": "تحميل الفاتورة",
+      "labelinfo": "(pdf، doc، docx، jpg - بحد أقصى 5 ميجا بايت)",
+      "requiredMsg": "الملف المرفق مطلوب",
+      "validationMsg": {
+        "size": "الملف كبير جدا",
+        "type": "نوع الملف غير صحيح"
+      }
+    },
+    "photo": {
+      "label": "إرفاق صورة للمشكلة أو لقطع الغيار المطلوبة",
+      "labelinfo": "(pdf، jpg، jpeg، png - بحد أقصى 5 ميجا بايت)",
+      "requiredMsg": "الصورة مطلوبة",
+      "validationMsg": {
+        "size": "الصورة كبيرة جدًا",
+        "type": "نوع الصورة غير صحيح"
+      }
+    },
+    "company": {
+      "label": "اسم الشركة",
+      "requiredMsg": "اسم الشركة مطلوب"
+    },
+    "purchasingdate": {
+      "label": "تاريخ الشراء",
+      "requiredMsg": "تاريخ الشراء مطلوب",
+      "pastOrTodayMsg": "لا يمكن أن يكون تاريخ الشراء في المستقبل."
+    },
+    "productname": {
+      "label": "اسم المنتج",
+      "requiredMsg": "اسم المنتج مطلوب"
+    },
+    "invoicenumber": {
+      "label": "رقم الفاتورة",
+      "requiredMsg": "رقم الفاتورة مطلوب"
+    },
+    "serialnumber": {
+      "label": "الرقم التسلسلي",
+      "requiredMsg": "الرقم التسلسلي مطلوب"
+    },
+    "body": {
+      "requiredMsg": "الرسالة مطلوبة"
+    },
+    "save": "حفظ التغييرات",
+    "savePhoneNumber": "تحديث رقم الجوال",
+    "saveEmail": "تحديث البريد الإلكتروني",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "send": "ارسال",
+    "sending": "ارسال رسالة..."
+  },
+  "sorting": {
+    "sortBy": "صنف حسب",
+    "options": {
+      "none": "لا شيئ",
+      "recentlyadded": "مضاف مؤخرا",
+      "nameAZ": "الاسم أ-ي",
+      "nameZA": "الاسم ي-أ",
+      "asc_price": "السعر تصاعدي",
+      "desc_price": "السعر تنازلي"
+    }
+  },
+  "filtering": {
+    "filters": "فلاتر",
+    "allFilters": "جميع فلاتر",
+    "clearFilters": "إلغاء جميع الفلاتر",
+    "tasteWheel": "عجلة التذوق",
+    "apply": "تطبيق الفلاتر",
+    "search": "يبحث...",
+    "searchTooltip": "أدخل علامات الاقتباس للبحث عن عبارة محددة. على سبيل المثال: \"قهوة 1 كجم\"",
+    "featured": "مميز"
+  },
+  "tags": {
+    "new": "جديد",
+    "bestseller": "الأكثر مبيعا",
+    "limited": "محدود",
+    "soldOut": "تم البيع"
+  },
+  "sections": {
+    "bestseller": "الأكثر مبيعًا",
+    "new": "وصل حديثًا",
+    "exclusive": "حصري",
+    "limited": "محصول محدود",
+    "others": "منتجات أخرى",
+    "all_products": "جميع المنتجات"
+  },
+  "modals": {
+    "address": {
+      "heading": "حذف العنوان",
+      "text": "تأكيد حذف العنوان؟"
+    }
+  },
+  "tasteWheel": {
+    "title": "اختر الإيحاء",
+    "selectNote": "حدد الإيحاء المتناسب مع ذائقتك",
+    "save": "حفظ",
+    "selectLabel": "تحديد {{noteType}}"
+  },
+  "common": {
+    "methodTitle": "Brewing Method",
+    "methodDescription": "Choose how you want your coffee brewed.",
+    "countryTitle": "Country",
+    "countryDescription": "Select the origin of the coffee beans.",
+    "noteTitle": "Major Note",
+    "noteDescription": "Pick the dominant flavor note.",
+    "startSearch": "ابدأ البحث",
+    "selectCountry": "اختر الدولة",
+    "selectMethod": "اختر الطريقة",
+    "selectNote": "اختر النكهة",
+    "selectCate": "اختر الفئة",
+    "selectTrademark": "حدد العلامة التجارية",
+    "coffee": "القهوة",
+    "tool": "الأدوات ",
+    "equipment": "معدات",
+    "spareParts": "قطع الغيار",
+    "all": "الجميع",
+    "archive": "الأرشيف",
+    "packages": "مجموعات مخفضة",
+    "profile": "المف الشخصي",
+    "logIn": "الدخول",
+    "logOut": "الخروج",
+    "hi": "مرحبا",
+    "preferences": "التفضيلات",
+    "descbrew": "اختر كيف تريد أن يتم تخمير قهوتك.",
+    "descCountry": "اختر مصدر حبوب القهوة.",
+    "descMajor": "اختر الملاحظة النكهية السائدة.",
+    "descTool": "اختر نوع الأداة التي تحتاجها.",
+    "brewingMethod": "طريقة التحضير",
+    "country": "الدولة",
+    "majorNote": "الإيحاءات الرئيسية",
+    "minorNote": "النكهة الثانوية",
+    "brewingMethodModal": "اختر طريقة التخمير",
+    "countryModal": "اختر الدولة",
+    "majorNotedModal": "اختر الملاحظة الرئيسية",
+    "catModal": "اختر الفئة",
+    "reset": "إعادة ضبط",
+    "apply": "تطبيق",
+    "flavour": "النكهة",
+    "taste": "المذاق",
+    "loading": "التحميل...",
+    "contentError": "خطأ",
+    "readMore": "قرائة المزيد",
+    "cup": "كوب",
+    "cups": "اكواب",
+    "more": "زيادة",
+    "next": "التالي",
+    "back": "الخلف",
+    "previous": "السابق",
+    "yourCart": "سلتك",
+    "grams": "جرامات",
+    "noResults": "نأسف، لا توجد نتائج",
+    "category": "الفئة",
+    "trademark": "العلامة التجارية",
+    "pagination": {
+      "prev": "الذهاب الى الصفحة السابقة",
+      "page": "#{{page}} الذهاب إلى الصفحة",
+      "next": "الذهاب إلى الصفحة التالية"
+    },
+    "confirm": "تأكيد",
+    "card": "البطاقة",
+    "stcPay": "إس تي سي بي",
+    "applePay": "أبل بي",
+    "and": "و",
+    "status": "الحالة",
+    "items": "العناصر",
+    "item": "العنصر",
+    "goBackToHomepage": "العودة إلى الصفحة الرئيسية",
+    "addToCart": "إضافة الى السلة",
+    "downloadInvoice": "تحميل الفاتورة",
+    "other": "أخرى",
+    "categories": "التصنيف",
+    "previousCart": "سلة التسوق السابقة"
+  },
+  "cart": {
+    "empty": "السلة فارغة",
+    "total": "المجموع",
+    "checkout": "الدفع",
+    "addToCartSuccess": "تمت الإضافة للسلة",
+    "addToCartError": "حدث خطأ",
+    "goToCheckout": "الدفع",
+    "vatIncluded": "شامل ضريبه القيمة المضافة",
+    "giftProduct": "منتج هدية"
+  },
+  "orderFeedback": {
+    "scoreGood": "جيد",
+    "scoreNeutral": "معتدل",
+    "scoreBad": "سيئ",
+    "send": "إرسال",
+    "order": "الطلب",
+    "delivery": "التوصيل",
+    "headline": "مرحبا!",
+    "body": "قيم المنتج! {{orderId}} نشكرك لطلبك",
+    "seeDetails": "التفاصيل",
+    "noteSubtitle": "إضافة نكهة؟",
+    "noteLabel": "إضافة نكهة (إختياري)",
+    "charactersLeft": "الحروف المتبقية",
+    "validationMessage": "جميع التقييمات إلزامية",
+    "notFound": {
+      "headline": "غير متوفر",
+      "button": "الرجوع الى الصفحة الرئيسية"
+    },
+    "thanksYou": {
+      "headline": "شكرا على تفاعلكم!",
+      "body": "هنا نص يستبدل بالمطلوب",
+      "button": "الرجوع للصفحة الرئيسية "
+    }
+  },
+  "checkout": {
+    "empty": "الطلبات",
+    "addAsBilling": "الإضافة كعنوان فواتير ايضا",
+    "addNewAddress": "عنوان {{purpose}} إضافة",
+    "goBackToCart": "الرجوع إلى السلة",
+    "giftAddress": "عنوان الإهداء",
+    "billingAddress": "عنوان الفواتير",
+    "shippingAddress": "عنوان الشحن",
+    "pickupAddress": "الاستلام من فرع",
+    "selectOrAdd": "{{purpose}} اختر أو اضف جديد",
+    "selectOrAddShipping": "أختر عنوان الشحن او اضف جديد",
+    "selectOrAddBilling": "اختر عنوان الفاتورة أو اضف جديد",
+    "errors": {
+      "chooseStore": "الرجاء إختيار المتجر",
+      "addBillingAddress": "الرجاء إضافة عنوان الفواتير",
+      "addShippingAddress": "الرجاء إضافة عنوان الشحن",
+      "addGiftAddress": "يرجى إضافة عنوان الإهداء"
+    },
+    "stepOneErrorMsg": "{{addressType}} الرجاء إختيار",
+    "goBackToHomepage": "الرجوع للصفحة الرئيسية",
+    "goBackToOrdersHistory": "الرجوع الى طلباتي",
+    "newShippingAddress": "إضافة عنوان شحن جديد",
+    "newBillingAddress": "إضافة عنوان فوترة جديد",
+    "newGiftAddress": "عنوان توصيل الهدايا",
+    "addAddress": "إضافة عنوان",
+    "sameAsShipping": "استخدم عنوان الشحن كعنوان إرسال الفواتير"
+  },
+  "delivery": {
+    "typeSelect": "'طريقة الشحن",
+    "storeSelect": "إختيار الفرع لإستلام الطلب",
+    "singleStore": "الطلب سيكون جاهز للإستلام : ",
+    "selectPlaceholder": "إختيار الفرع",
+    "packages": "الشحنات",
+    "pickup": "استلام من الفرع",
+    "delivery": "الشحن",
+    "pickupLocation": "منطقة الاستلام",
+    "international": "دولي",
+    "internal": "التوصيل",
+    "packageLabel": "{{index}} الشحنة",
+    "productsUncompleted": "المنتجات الغير مكتملة",
+    "itemsPrice": "تكلفة المنتجات",
+    "deliveryPrice": "الشحن",
+    "totalPrice": "الإجمالي"
+  },
+  "order": {
+    "summary": "ملخص الطلب",
+    "created": "تم إنشائه #{{orderNumber}} الطلب رقم",
+    "orderNumber": "#{{orderNumber}} تم انشاء الطلب رقم ",
+    "notifyWhenShipped": "سيتم إعلامك عند شحن الطلب",
+    "status": "{{status}} :الحالة",
+    "paymentDetails": "تفاصيل الدفع",
+    "packagePrepare": " طلبك تحت المعالجة",
+    "statuses": {
+      "payment_in_progress": "معالجة عملية الدفع",
+      "payment_failed": "فشل عملية الدفع",
+      "payment_succeed": "تم الدفع",
+      "customer_picked_up": "الإستلام",
+      "approved": "مقبولة",
+      "processing": "قيد المعالجة",
+      "in_delivery": "تم الشحن",
+      "ready_to_pickup": "جاهز للاستلام",
+      "completed": "مكتمل",
+      "rejected": "مرفوض",
+      "feedback_requested": "تم طلب التقييم",
+      "payment_timeout": "مهلة الدفع",
+      "ordered": "أمر",
+      "ready": "مستعد"
+    },
+    "pendingOrder": {
+      "heading": "طلبك قيد الإجراء",
+      "subHeading": "لديك عملية دفع معلقة",
+      "buttonText": "الرجوع إلى الدفع"
+    },
+    "errors": {
+      "waitPaymentProcess": "الرجاء الانتظار.. يتم معالجة عملية الدفع",
+      "paymentFailed": "خطأ في الدفع",
+      "unexpectedError": "حدث خطأ غير متوقع",
+      "tryAgain": "حاول مرة أخرى",
+      "tryAgainOrContact": ":يرجى المحاولة مرة أخرى لاحقًا، وفي حال استمرار المشكلة يرجى التواصل مع الدعم",
+      "paymentServiceProblem": "مشكلة في عملية الدفع",
+      "paymentFailedTryAgain": "فشل في الدفع ، حاول مرة أخرى"
+    }
+  },
+  "notFound": {
+    "heading": "الصفحة غير متوفرة",
+    "subheading": "الصفحة نقلت او أزيلت او تم اعادة تسميتها او لم يتم انشائها",
+    "goBackToHomepage": "الذهاب للصفحة الرئيسية"
+  },
+  "inactiveProduct": {
+    "heading": "عذرًا، هذا المنتج غير متوفر مؤقتًا",
+    "subheading": "يمكنك تصفح منتجاتنا الأخرى أدناه.",
+    "goBackToHomepage": "الذهاب للصفحة الرئيسية"
+  },
+  "notifications": {
+    "error": "يوجد بعض الأخطاء",
+    "wishlist": {
+      "add": "تم الإضافة بنجاح الى قائمة أمنياتي",
+      "remove": "تم إزالة المنتج من قائمة أمنياتي"
+    },
+    "preferences": {
+      "success": "المفضلة بنجاح {{preferenceType}} تم تحديث"
+    },
+    "cart": {
+      "success": "تمت الإضافة لعربة التسوق بنجاح",
+      "limit": "الكمية غير متوفرة"
+    }
+  },
+  "unresolvedProducts": {
+    "heading_one": "هذا المنتج غير متوفر لطريقة الشحن ",
+    "heading_other": "هذه المنتجات غير متوفرة لطريقة الشحن",
+    "info_one": ":لإكمال الطلب ، يرجى اختيار طريقة شحن أخرى أو إزالة المنتج التالي من سلة التسوق",
+    "info_other": ":لإكمال الطلب, الرجاء اختيار طريقة شحن اخرى أو إزالة المنتجات التالية من السلة ",
+    "remove": "إزالة",
+    "continueWith": " المتابعة بـ",
+    "itemsRemoved": "سيتم إزالت",
+    "pickup": "إستلام من الفرع",
+    "delivery": "توصيل"
+  },
+  "carousel": {
+    "nextSlide": "الشريحة التالية",
+    "previousSlide": "الشريحة السابقة"
+  },
+  "prices": {
+    "deliveryFee": "رسوم التوصيل",
+    "subtotal": "المجموع الفرعي",
+    "vat": "الضريبة",
+    "total": "المجموع",
+    "discount": "تخفيض"
+  },
+  "seo": {
+    "home": {
+      "title": "خطوة جمل",
+      "description": ""
+    },
+    "quiz": {
+      "title": "خطوة جمل | اختبار النكهة",
+      "description": ""
+    },
+    "login": {
+      "title": "خطوة جمل | تسجيل الدخول",
+      "description": ""
+    },
+    "howToBrew": {
+      "title": "خطوة جمل | دليل التحضير",
+      "description": ""
+    },
+    "profile": {
+      "title": "خطوة جمل | الحساب الشخصي",
+      "description": ""
+    },
+    "aboutUs": {
+      "title": "خطوة جمل | من نحن",
+      "description": ""
+    },
+    "privacyPolicy": {
+      "title": "خطوة جمل | سياسة الخصوصية",
+      "description": ""
+    },
+    "blogs": {
+      "title": "خطوة جمل | المدونات",
+      "description": ""
+    },
+    "locations": {
+      "title": "خطوة جمل | مواقع الفروع",
+      "description": ""
+    },
+    "faq": {
+      "title": "خطوة جمل | الأسئلة الشائعة",
+      "description": ""
+    },
+    "contactUs": {
+      "title": "خطوة جمل | اتصل بنا",
+      "description": ""
+    }
+  },
+  "vatInfo": {
+    "heading": "يرجى الملاحظة",
+    "content": "إذا كان طلبك استلام/التسليم خارج المملكة العربية السعودية، فلن يتم احتساب ضريبة القيمة المضافة (%)."
+  },
+  "select": {
+    "variant": {
+      "color": "اللون",
+      "size": "الحجم"
+    }
+  },
+  "badge": {
+    "new": "جدید",
+    "outofstock": "غير متوفر بالمخزن",
+    "limited": "محصول محدود",
+    "bestseller": "الاكثر مبيعا",
+    "exclusive": "حصري"
+  },
+  "country": {
+    "brazil": "البرازيل",
+    "burundi": "بوروندي",
+    "colombia": "كولومبيا",
+    "costarica": "'كوستاريك",
+    "elsalvador": "السلفادور",
+    "ethiopia": "أثيوبيا",
+    "honduras": "هندوراس",
+    "panama": "بنما",
+    "yemen": "اليمن",
+    "indonesia": "اندونيسيا",
+    "vietnam": "فيتنام",
+    "peru": "بيرو",
+    "india": "الهند",
+    "guatemala": "غواتيمالا"
+  },
+  "tastes": {
+    "sweet": "حلو",
+    "brownsugar": "السكر البني",
+    "molasses": "دبس السكر",
+    "maplesyrup": "شراب القيقب",
+    "carmelized": "مكرمل",
+    "honey": "عسل",
+    "vanilla": "فانيلا",
+    "vanillin": "فانيلين,",
+    "overallsweet": "حلاوة بارزة",
+    "sweetaromatics": "عطرية حلوة",
+    "floral": "زهري",
+    "blacktea": "الشاي الأسود",
+    "chamomile": "البابونج",
+    "rose": "ورد",
+    "jasmine": "الياسمين",
+    "fruity": "فاكهي",
+    "berry": "توت",
+    "blackberry": "توت أسود",
+    "raspberry": "توت العُليق",
+    "blueberry": "توت أزرق",
+    "strawberry": "الفراولة",
+    "driedfruit": "فواكه مجففة",
+    "raisin": "الزبيب",
+    "prune": "برقوق مجفف",
+    "otherfruit": "فواكه أخرى",
+    "coconut": "جوز الهند",
+    "cherry": "الكرز",
+    "pomegranate": "الرمان",
+    "pineapple": "أناناس",
+    "grape": "العنب",
+    "apple": "التفاح",
+    "peach": "الخوخ",
+    "pear": "الكمثرى",
+    "citrusfruit": "فاكهة الحمضيات",
+    "grapefruit": "جريب فروت",
+    "orange": "برتقال",
+    "lemon": "ليمون",
+    "lime": "ليمون",
+    "sourfermented": "حامض/ مخمر",
+    "sour": "حامض",
+    "souraromatics": "عطري حمضي",
+    "aceticacid": "حمض الاسيتيك",
+    "butyricacid": "حمض البيوتيريك",
+    "malicacid": "حمض الماليك",
+    "alcoholfermented": "مخمرة / الكحول",
+    "winey": "نبيذ",
+    "whiskey": "ويسكي",
+    "fermented": "مخمر",
+    "overripe": "ناضجة",
+    "greenvegetative": "أخضر/ نباتي",
+    "oliveoil": "زيتون/ زيت",
+    "raw": "خام",
+    "underripe": "غير ناضج",
+    "peapod": "بازلاء",
+    "fresh": "طازج",
+    "darkgreen": "أخضر\\غامق",
+    "vegetative": "نباتي",
+    "haylike": "عشب مجفف",
+    "herblike": "شبيه بالأعشاب",
+    "beany": "فولي",
+    "other": "أخرى",
+    "papermusty": "ورقي / عفن",
+    "stale": "قديم",
+    "cardboard": "كرتون",
+    "papery": "ورقى",
+    "woody": "خشبي",
+    "moldydamp": "عفن / رطب",
+    "mustydusty": "عفن / ترابي",
+    "mustyearthy": "عفن / أرضي",
+    "animalic": "حيواني",
+    "meatybrothy": "مرق اللحم",
+    "phenolic": "الفينول",
+    "chemical": "كيماويات",
+    "bitter": "مر",
+    "salty": "مالح",
+    "medicinal": "دوائي",
+    "petroleum": "نفطي",
+    "skunky": "جلدي",
+    "rubber": "مطاط",
+    "roasted": "محمص",
+    "pipetobacco": "تبغ الغليون",
+    "tobacco": "تبغ",
+    "burnt": "محترق",
+    "acrid": "لاذع",
+    "ashy": "رماد",
+    "smoky": "مدخن",
+    "brownroast": "حمص\\بني",
+    "cereal": "حبوب",
+    "grain": "قمح",
+    "malt": "شراب الشعير",
+    "spices": "التوابل",
+    "pungent": "لاذع",
+    "pepper": "فلفل",
+    "brownspice": "توابل بنية",
+    "anise": "يانسون",
+    "nutmeg": "جوزة الطيب",
+    "cinnamon": "القرفة",
+    "clove": "القرنفل",
+    "nuttycocoa": "مكسرات  /  كاكاو",
+    "nutty": "مكسرات",
+    "peanuts": "الفول السوداني",
+    "hazelnut": "بندق",
+    "almond": "لوز",
+    "cocoa": "كاكاو",
+    "chocolate": "الشوكولاتة",
+    "darkchocolate": "الشوكولاتة الداكنة"
+  },
+  "brewingmethod": {
+    "blackdrip": " سوداء/مقطرة",
+    "espresso": "إسبرسو",
+    "turkish": "تركية",
+    "coldbrew": "كولد برو",
+    "milkbased": "مع الحليب",
+    "saudi": " القهوة السعودية",
+    "colddripcoffee": "قهوة مقطرة باردة"
+  },
+  "coffeetype": {
+    "blackcoffee": "قهوة سوداء",
+    "espresso": "اسبريسو",
+    "turkishcoffee": "قهوة تركية ",
+    "coldbrew": "كولد برو",
+    "tea": "شاهي "
+  },
+  "place": {
+    "homeoffice": "البيت & المكتب ",
+    "travel": "أثناء السفر"
+  },
+  "aboutUs": {
+    "title": "من نحن",
+    "p1": "شركة خطوة جمل للتجارة والصناعة هي من أوائل شركات القهوة المختصة في المملكة العربية السعودية والتي انطلقت لبناتها الأساسية من عام 2013م تحت شعار الإرتقاء بمستوى جودة القهوة في السوق المحلية بشكل خاص والإقليمية بشكل عام. كرست شركة خطوة جمل مجهوداتها في بداية مسيرتها على بناء سوق القهوة المختصة عن طريق نشر المحتوى المعرفي وتوفير المنتجات اللازمة لتثقيف المجتمع حول القهوة المختصة. كما استثمرت شركة خطوة جمل في تطوير الكوادر الوطنية كأحد ركائز سوق القهوة المختصة عن طريق تدريب الكوادي للإلمام بأنواع القهوة ومصادرها وتأمين سلاسل الإمداد لضمان الاستمرارية والجودة جاعلين نصب أعيننا هويتنا العربية الأصيلة في التعاون ونشر المعرفة والسير بخطى ثابتة لنقل الثقافة وتطوير تجارة القهوة.",
+    "p2": "نخطو خطوة واعدة لصياغة المفهوم الحقيقي للقهوة.",
+    "sub1": "مبدأنا وطريقتنا",
+    "p3": "إنطلاقا من روح الابتكار، شركة خطوة جمل تعمل على العديد من المبادرات في خططها الاستراتيجية لتصبح واحدة من مراكز الخبرة في سوق القهوة المختصة محليا وعالميا وهي الرحلة المليئة بالطموح وروح المبادرة. كما نهدف من خلال مسيرتنا إلى البحث عن فرص جديدة للتحسين والنمو في مجالات متنوعة للتكيف مع الظروف المتنوعة. نحن جادين وملتزمين في التمسك بمبادئنا وقيمنا لإنتاج أجود منتجات القهوة من مختلف الأنواع والمصادر.",
+    "sub2": "القهوه المختصّة",
+    "p4": "يعود ذلك دوما إلى جودة القهوة والتي منها نشأت فكرة انطلاق خطوة جمل في مجال القهوة المتخصصة حيث الحاجة إلى توفير حبوب البن ذات الجودة العالية في السوق المحلية لتلبية احتياجات العملاء. من هذا المنطلق استثمرنا الشغف الذي نملكه لنكون انطلاقا ومركزا رئيسيا للقهوة المختصة في كافة مراحلها من زراعة وحصاد و نقل وحمص وتقديم",
+    "sub3": "الهدف",
+    "p5": "الاستدامة بتقديم منتجات وخدمات تفوق توقعات عمالئنا عبر استثمارنا بالموارد لتنمية اقتصاد القهوة لخدمة البيئة والمجتمع",
+    "sub4": "الرؤية",
+    "p6": "السير في صناعة القهوة لخلق قيمة بمنتجات مبتكرة وخدمات مميزة ."
+  },
+  "footer": {
+    "support": "الدعم",
+    "menu": "القائمة",
+    "company": "الشركة",
+    "rights": "جميع الحقوق محفوظة لشركة خطوة جمل للتجارة والصناعة",
+    "crn": "السجل التجاري",
+    "vrn": "الرقم الضريبي",
+    "cert": "شهادة تسجيل ضريبة القيمة المضافة",
+    "twitter": "https://twitter.com/camelstep",
+    "snapchat": "https://www.snapchat.com/add/camelstep",
+    "instagram": "https://www.instagram.com/camelstep",
+    "youtube": "https://www.youtube.com/channel/UCrz2yzqYWc1tMJgqrNA-yyQ",
+    "whatsapp": "https://wa.me/966920000689",
+    "email": "online@camelstep.com",
+    "emailCopy": "تم نسخ عنوان البريد الإلكتروني إلى الحافظة",
+    "tel": "+966920000689",
+    "telCopy": "تم نسخ رقم الهاتف إلى الحافظة",
+    "termsOfUse": "Terms of Use",
+    "privacyPolicy": "السياسات والخصوصية",
+    "unitedStates": "United States | English (US) | $(USD)",
+    "languageLabel": "تغيير اللغة"
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "header": "لتسريع الإجابة على سؤالك ، يرجى تزويدنا ببعض البيانات كي توجه رسالتك إلى الشخص المناسب. شكرًا لك!",
+    "tabs": {
+      "business_sales": "المبيعات",
+      "maintenance": "الصيانة وقطع الغيار",
+      "assist_online_purchase": "المساعدة في إنشاء طلب",
+      "opportunities": "الفرص",
+      "training": "برامج التدريب",
+      "returns": "الارجاع ",
+      "career_request": "التوظيف",
+      "complaint": "الشكاوى والاقتراحات",
+      "other_inquiries": "استفسار آخر"
+    },
+    "partner_request": {
+      "products": "المعدات والأدوات",
+      "catering": "تموين القهوة",
+      "training": "خدمات التدريب",
+      "consulting": "خدمات الاستشارات",
+      "other": "أخرى"
+    },
+    "assist_online_purchase": {
+      "account_creation_login": "إنشاء الحساب وتسجيل الدخول",
+      "adding_to_cart_and_checkout": "إضافة إلى سلة التسوق والدفع",
+      "shipping_and_delivery": "الشحن والتوصيل",
+      "order_cancellation": "طلب إلغاء طلب",
+      "other": "أخرى"
+    },
+    "business_sales": {
+      "request_quotation": "طلب عرض سعر",
+      "products_catalogue": "المنتجات والأسعار",
+      "consulting": "الاستشارات",
+      "private_label_services": "منتج العلامة الخاصة",
+      "resale_partnership": "إعادة البيع",
+      "coffee_catering": "الضيافة"
+    },
+    "business_sales_checkboxes": {
+      "coffee_beans": "بن",
+      "tools_and_equipments": "أدوات ومعدات",
+      "both": "الجميع"
+    },
+    "opportunities": {
+      "sponsorships": "الرعايات",
+      "public_relationship_service_communities": "العلاقات العامة والخدمات المجتمعية ",
+      "business_opportunities": "الفرص التجارية"
+    },
+    "training": {
+      "personal_training": "شخصي",
+      "corporate_training": "برامج الشركات"
+    },
+    "producttype": {
+      "label": "حدد نوع المنتج",
+      "requiredMsg": "نوع المنتج مطلوب"
+    },
+    "maintenancetype": {
+      "label": "حدد نوع الصيانة",
+      "requiredMsg": "نوع الصيانة مطلوب"
+    },
+    "maintenance_a": {
+      "grinder": "طاحونة",
+      "scale": "ميزان",
+      "coffeeboiler": "غلاية قهوة",
+      "espressomachine": "آلة إسبريسو",
+      "waterfiltrationsystem": "نظام تنقية المياه",
+      "other": "أخرى"
+    },
+    "maintenance_b": {
+      "urgentmaintenance": "صيانة عاجلة",
+      "periodicmaintenance": "الصيانة الدورية",
+      "filterchangerequest": "طلب تغيير الفلتر",
+      "installation and start-up": "التركيب و التشغيل",
+      "other": "أخرى"
+    },
+    "storepurchase": "هل اشتريت الجهاز من خطوة جمل؟",
+    "isindividual": "تحقق مما إذا كنت عميلاً فرديًا",
+    "citynote": "إذا لم تكن شريك أعمال لشركة خطوة جمل ، فيرجى زيارة فرع الرحمانية ، وسنكون سعداء بمساعدتك..",
+    "complaint": {
+      "label": "حدد نوع الرسالة"
+    },
+    "complaint_a": {
+      "suggestions": "اقتراح",
+      "complaints": "شكوى"
+    },
+    "complaint_b": {
+      "suggestions": "اقتراح",
+      "complaints": "شكوى",
+      "observations": "ملاحظة"
+    },
+    "type": {
+      "label": "كيف يمكننا مساعدتك؟",
+      "label2": "كيف يمكننا مساعدتك؟",
+      "label3": "متعلق ب؟",
+      "label4": "اختر",
+      "requiredMsg": "موضوع الرسالة مطلوب"
+    },
+    "body": {
+      "label": "رسالتك"
+    },
+    "thanks": "شكرًا على تواصلك مع فريق خطوة جمل. يرجى ملاحظة أن فريقنا يعمل من الأحد إلى الخميس.",
+    "statuses": {
+      "married": "متزوج",
+      "single": "أعزب"
+    },
+    "return": {
+      "full_return": "إرجاع الطلب بالكامل",
+      "partial_return": "إرجاع أصناف معينة",
+      "required": "إرجاع السبب للإرجاع مطلوب",
+      "reason_of_return": "سبب إرجاع الطلب",
+      "required_message": "هذا الحقل مطلوب",
+      "reason_of_return_options": {
+        "damaged_item": "مشاكل في جودة المنتج",
+        "wrong_item": "استلام منتج مختلف",
+        "doesnt_fit": "المنتج لا يتطابق مع الوصف",
+        "late_delivery": "تأخر في التوصيل",
+        "other": "أخرى"
+      }
+    },
+    "education": {
+      "none": "لا تعليم رسمي",
+      "primary": "ابتدائي",
+      "intermediate": "متوسط",
+      "secondary": "ثانوي",
+      "vocational": "المؤهل التعليمي",
+      "bachelor": "درجة البكالوريوس",
+      "master": "درجة الماجستير",
+      "doctorate": "درجة الدكتوراه أو أعلى"
+    },
+    "online_assistance": {
+      "reason_of_cancellation": {
+        "label": "طلب إلغاء طلب",
+        "requiredMsg": "سبب الإلغاء مطلوب"
+      },
+      "options": {
+        "change_of_mind": "لا احتاج المنتج",
+        "delivery_delays": "تأخير التسليم",
+        "incorrect_item_ordered": "اختيار منتج غير صحيح",
+        "modify_order": "اختيار منتج غير صحيح",
+        "duplicate_purchase": "شراء مكرر",
+        "other": "سبب آخر"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "الاسم",
+        "required": "الحقل إلزامي"
+      },
+      "number": {
+        "label": "رقم التواصل",
+        "required": "الحقل إلزامي"
+      },
+      "order_id": {
+        "label": "معرف الطلب",
+        "required": "معرف الطلب إلزامي"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "required": "الحقل إلزامي"
+      },
+      "order_details": {
+        "label": "تفاصيل الطلب",
+        "required": "تفاصيل الطلب إلزامية"
+      },
+      "company_name": {
+        "label": "اسم الشركة",
+        "required": "اسم الشركة إلزامي"
+      },
+      "cr": {
+        "label": "شهادة السجل التجاري",
+        "required": "الحقل إلزامي"
+      },
+      "vat": {
+        "label": "الرقم الضريبي",
+        "required": "الحقل إلزامي"
+      },
+      "photo": {
+        "label": "رفع الصورة"
+      },
+      "title": {
+        "label": "موضوع الرسالة",
+        "required": "الحقل إلزامي"
+      }
+    },
+    "prevStep": "فضلاً اكمال الخطوة السابقة أولاً",
+    "nextStep": "الخطوة التالية"
+  },
+  "signIn": {
+  "or": "أو",
+  "google": "تسجيل الدخول بواسطة جوجل"
+},
+  "blog": {
+    "search": "البحث حسب عنوان المدونة",
+    "sort": "رتب حسب التاريخ",
+    "topics": "المواضيع",
+    "mineofknowledge": "منجم من المعرفة حول القهوة وأكثر",
+    "read": "اقرأ"
+  },
+  "blogDescription": {
+    "backtoarticles": "العودة إلى المقالات",
+    "read": "اقرأ",
+    "oneMinuteReadArabic": "دقيقة قراءة",
+    "twoMinutesReadArabic": "دقيقتان قراءة",
+    "threeToTenMinutesReadArabic": "{{number}} دقائق قراءة",
+    "aboveTenMinutesReadArabic": "{{number}} دقيقة قراءة"
+  },
+  "promotion": {
+    "expiresLabel": "ينتهي في",
+    "daysLabel": "أيام"
+  },
+  "blogsSection": {
+    "title": "#خطوة جمل",
+    "subtitle": "رحلتنا من مقهى مجتمعي إلى الازدهار في سلسلة مقاهي عالمية"
+  },
+  "bourbonSection": {
+    "title": "قهوة عربية",
+    "card1": {
+      "title": "اختبار التذوق",
+      "subtitle": "ابدأ ھنا"
+    },
+    "card2": {
+      "title": "طريقة التحضير",
+      "subtitle": "طريقة التحضير"
+    },
+    "card3": {
+      "title": "من نحن",
+      "subtitle": "اعرف أکثر"
+    }
+  },
+  "heroSection": {
+    "bestSeller": "الأفضل مبيعاً",
+    "popularEquipment": "الأدوات الشائعة",
+    "newCollection": "المنتجات الجديدة",
+    "famousPackage": "مجموعات مميزة"
+  },
+  "mapSection": {
+    "title": "فروعنا",
+    "city": "مدينة",
+    "country": "دولة"
+  },
+  "locationsPage": {
+    "heroTitle": "خطوة جمل قريب منك",
+    "heroContent": "نرحب بكم في عالمنا الذي يتميز بتجارب القهوة الاستثنائية، حيث يحكي كل كوب قصة الجودة والمجتمع. تعال واستكشف مواقعنا المتنوعة وابحث عن مكانك المفضل للاسترخاء والاستمتاع بفنجان القهوة المثالي.",
+    "branchesSectionTitle": "فروعنا خطوة جمل",
+    "lowerBannerTitle": "نحن نصنع يومك",
+    "lowerBannerContent": "انضم إلينا في صياغة مستقبل القهوة",
+    "branchCard": {
+      "everyday": "يوميًا",
+      "pickUpTime": "وقت الاستلام",
+      "timing": "6 صباحًا - 11 مساءً",
+      "map": "خريطة"
+    }
+  },
+  "cookieBanner": {
+    "firstPassage": "لفهم كيفية استخدامك لموقعنا الإلكتروني وتحسين تجربتك، نقوم بجمع بعض المعلومات المهمة. لمعرفة ما نجمعه ولماذا",
+    "privacyLinkLabel": "اقرأ سياسة الخصوصية الخاصة بنا",
+    "passageHeading": "المعلومات الأساسية",
+    "secondPassage": "  هذه المعلومات التي نجمعها ضرورية لتوفير الميزات الأساسية المتاحة على موقعنا الإلكتروني، ونظرًا لأن هذه المعلومات أساسية لتجربتك، لا يمكنك تعديل هذه الإعدادات مع الاستمرار في استخدام الموقع",
+    "buttonText": "قبول الكل"
+  }
+}

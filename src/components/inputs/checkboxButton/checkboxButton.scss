@@ -1,0 +1,89 @@
+.btn-checkbox {
+  background-color: $mainWhite;
+  box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: $mainBlue;
+  padding: 0 1rem;
+  min-width: 12rem;
+  border: 2px solid $mainWhite;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 4rem;
+
+  &.error {
+    border: 1px solid $colorError;
+  }
+
+  &__input {
+    visibility: hidden;
+    appearance: none;
+    position: absolute;
+  }
+
+  svg {
+    margin-inline-end: 1rem;
+
+    & + .btn-checkbox__text {
+      margin-inline-start: 0;
+    }
+  }
+
+  &__text {
+    margin-inline-start: 1rem;
+  }
+
+  .checkmark {
+    display: inline-block;
+    width: 2.2rem;
+    height: 2.2rem;
+    position: relative;
+    margin-inline-start: auto;
+    flex-shrink: 0;
+    margin-inline-end: 0;
+  }
+
+  .checkmark::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    border-radius: 10rem;
+    border: 1px solid $mainBlue;
+    vertical-align: middle;
+  }
+
+  .checkmark::after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    vertical-align: text-top;
+    width: 1.6rem;
+    height: 1.6rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10rem;
+    background-color: $mainBlue;
+    opacity: 0;
+    transition: all 0.2s cubic-bezier(0.28, 0.05, 0.605, 1.48);
+  }
+}
+
+input:checked + .btn-checkbox {
+  box-shadow: inset -1px -1px 1px rgba(255, 255, 255, 0.7), inset 1.5px 1.5px 1px rgba(174, 174, 192, 0.2), -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+  .checkmark {
+    &::after {
+      opacity: 1;
+      transition: all 0.2s cubic-bezier(0.28, 0.05, 0.605, 1.48);
+    }
+  }
+}
+
+input:disabled + .btn-checkbox {
+  cursor: not-allowed;
+  opacity: .7;
+}

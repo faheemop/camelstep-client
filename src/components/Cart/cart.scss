@@ -1,0 +1,254 @@
+.cart {
+  position: fixed;
+  right: 0;
+  height: 100%;
+  top: 0;
+  background-color: $mainWhite;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: 300ms;
+  width: 100%;
+  overflow: auto;
+
+  @include respond-to('small') {
+    width: 50rem;
+  }
+
+  @include respond-to('medium') {
+    width: 74rem;
+  }
+
+  &.open {
+    transform: translateX(0%);
+    box-shadow: 10px 30px 120px rgba(7, 7, 7, 0.09);
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      padding: 2rem;
+
+      @include respond-to('x-small') {
+        padding: 3rem;
+      }
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+
+    @include respond-to('mobile') {
+      top: 1rem;
+      right: 1rem;
+    }
+  }
+
+  &__close,
+  &__item {
+    cursor: pointer;
+  }
+
+  &__border {
+    padding-block-start: 2rem;
+    border-bottom: 0.1rem solid #e2e0db;
+  }
+
+  &__checkout {
+    width: 100%;
+  }
+
+  &__bottom {
+    position: sticky;
+    bottom: 0;
+    padding: 2rem;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: $colorWhite;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0.8;
+      z-index: -1;
+
+      @include respond-to('small') {
+        display: none;
+      }
+    }
+
+    @include respond-to('x-small') {
+      padding: 5rem;
+    }
+
+    @include respond-to('small') {
+      position: relative;
+    }
+  }
+
+  &__promos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin: 1rem 0 2.4rem 0;
+  }
+
+  .promo {
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1.4rem 1.6rem;
+    color: $colorWhite;
+    font-size: 1.4rem;
+    line-height: 1.3;
+
+    &__code {
+      font-weight: 700;
+    }
+
+    &--primary {
+      background-color: #005470;
+    }
+
+    &--secondary {
+      background-color: #90724C;
+    }
+  }
+
+  .promo-progress {
+
+    &__label {
+      font-size: 1.4rem;
+      color: #4a4a4a;
+      margin-bottom: 0.8rem;
+    }
+
+    &__bar {
+      width: 100%;
+      height: 1.4rem;
+      background-color: #e9e9e9;
+      border-radius: 999px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    &__fill {
+      height: 100%;
+      background-color: #005470;
+      border-radius: 999px;
+      position: relative;
+    }
+
+    &__knob {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translate(50%, -50%);
+      width: 2.2rem;
+      height: 2.2rem;
+      background-color: #0a5a6c;
+      border: 0.4rem solid #e9e9e9;
+      border-radius: 50%;
+      box-shadow: 0 0 0 2px #e9e9e9;
+    }
+  }
+
+  &__divider {
+    height: 0.2rem;
+    background-color: #e2e0db;
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .icon-delete {
+    width: 4rem;
+    height: 4rem;
+
+    @include respond-to('x-small') {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  .quantity {
+    font-size: 5rem;
+    height: 4rem;
+    width: 12rem;
+
+    @include respond-to('x-small') {
+      font-size: 1.4rem;
+      height: 3rem;
+      width: 14rem;
+    }
+
+    .minus-mark {
+      height: 16px;
+      width: 16px;
+
+      &::after {
+        height: 2px;
+      }
+    }
+
+    .plus-mark {
+      height: 16px;
+      width: 16px;
+
+      &:before {
+        width: 2px;
+      }
+
+      &:after {
+        height: 2px;
+      }
+    }
+
+    & .quantity__button {
+      font-size: 1rem;
+      flex-basis: 35%;
+      padding: 0;
+    }
+
+    & .quantity__input {
+      font-size: 2rem;
+      padding: 0;
+      flex-basis: 30%;
+
+      @include respond-to('x-small') {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+
+html[dir='rtl'] {
+  .cart {
+    right: initial;
+    left: 0;
+    transform: translateX(-100%);
+
+    &__close {
+      right: initial;
+      left: 3rem
+    }
+
+    &.open {
+      transform: translateX(0%);
+    }
+  }
+}

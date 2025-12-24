@@ -1,0 +1,78 @@
+.quiz-results {
+  flex-direction: column;
+
+  .quiz-buttons {
+    @include respond-to("x-small") {
+      display: flex;
+      gap: 2.4rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    @include respond-to("medium") {
+      display: flex;
+      gap: 2.4rem;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      margin-block-start: 1rem;
+      width: 100%;
+      @include respond-to("x-small") {
+        width: calc(50% - (1rem / 2));
+      }
+      @include respond-to("medium") {
+        width: auto;
+        margin: 0;
+      }
+    }
+  }
+
+  .similar-products {
+    .text-caption {
+      margin-block-end: 2rem;
+      text-align: center;
+    }
+  }
+
+  .needed-products {
+    .text-caption {
+      margin-block-end: 2rem;
+      text-align: center;
+
+      @include respond-to('medium') {
+        text-align: left;
+      }
+    }
+  }
+
+  &-product {
+    &__image {
+      width: 80%;
+      max-width: max(30rem, 40vmin);
+      margin-inline-end: auto;
+      margin-inline-start: auto;
+      display: block;
+      margin-block-end: 5%;
+    }
+
+    &__inner {
+      width: 100%;
+      margin-block-end: 10%;
+      margin-block-start: 5%;
+
+      @include respond-to('medium') {
+        margin-block-start: auto;
+      }
+    }
+  }
+}
+
+.quiz-results-image {
+  object-fit: cover;
+  width: 80%;
+  max-width: 30rem;
+  display: block;
+  margin-inline: auto;
+}

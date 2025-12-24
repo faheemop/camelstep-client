@@ -1,0 +1,11 @@
+.container {
+  max-width: 110rem;
+  margin: auto;
+  width: 100%;
+
+  &--fluid {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

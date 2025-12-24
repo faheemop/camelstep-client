@@ -1,0 +1,28 @@
+.gift-code-input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-block-end: 2.5rem;
+  position: relative;
+  .custom-input-wrapper {
+    width: 27rem;
+    margin-block-end: 0;
+    [dir="rtl"] & {
+      .custom-input__icon {
+        left: inherit;
+        right: 0;
+      }
+      .custom-input__label-container {
+        left: inherit;
+        right: 6rem;
+      }
+    } 
+
+    & + .loading-spinner {
+      font-size: 0.4rem;
+      margin-block-end: 0;
+      margin: 0;
+      margin-inline-start: 2rem;
+    }
+  }
+}

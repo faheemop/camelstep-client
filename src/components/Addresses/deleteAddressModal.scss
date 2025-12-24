@@ -1,0 +1,16 @@
+.modal-content {
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    .btn {
+      min-width: 0;
+      margin: 0;
+      flex-basis: calc(50% - 0.5rem);
+      flex-grow: 1;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+  "quiz_type": "coffee",
+  "param": "major_note",
+  "text": "What taste do you like?",
+  "choices": [
+  "Sweet",
+  "Floral",
+  "Fruity",
+  "Sour/fermented",
+  "Green/vegetative",
+  "Other",
+  "Roasted",
+  "Spices",
+  "Nutty/cocoa"
+  ]
+  },
+  {
+  "quiz_type": "coffee",
+  "param": "brewing_method",
+  "text": "How do you like your coffee?",
+  "choices": [
+  "Espresso",
+  "Aeropress",
+  "French",
+  "Coffee bag",
+  "Vacuum",
+  "Percolator",
+  "Drip",
+  "Chemex"
+  ]
+  },
+  {
+  "quiz_type": "coffee",
+  "param": "country",
+  "text": "From which country?",
+  "choices": [
+  "Brazil",
+  "Vietnam",
+  "Colombia",
+  "Indonesia",
+  "Honduras",
+  "Ethiopia",
+  "Peru",
+  "India"
+  ]
+  },
+  {
+  "quiz_type": "equipment",
+  "param": "coffee_type",
+  "text": "What do you want to drink?",
+  "choices": [
+  "Milk-based",
+  "Black",
+  "Cold Brew",
+  "Arabic Saudi",
+  "Espresso",
+  "Turkish"
+  ]
+  },
+  {
+  "quiz_type": "equipment",
+  "param": "no_of_cups",
+  "text": "How many cups do you usually drink?",
+  "choices": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "more"
+  ]
+  },
+  {
+  "quiz_type": "equipment",
+  "param": "place",
+  "text": "Where will you be making coffee?",
+  "choices": [
+  "Home & Office",
+  "Travel"
+  ]
+  }
+  ]

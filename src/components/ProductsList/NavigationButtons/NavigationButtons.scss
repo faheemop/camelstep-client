@@ -1,0 +1,45 @@
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+.flip-horizontal {
+  transform: scaleX(-1);
+}
+
+.left-button-container,
+.right-button-container {
+  display: flex;
+
+  align-items: center;
+  height: 24px;
+  width: 24px;
+  background-color: #f1f1f1;
+  justify-content: center;
+  border-radius: 100%;
+
+}
+
+.left-arrow,
+.right-arrow {
+  width: 14px;
+  height: 14px;
+}
+
+.left-button-container {
+  opacity: 0.4;
+  margin-right: 0.5rem;
+  border: 1px solid rgb(78, 78, 78);
+  border-radius: 100%;
+}
+
+.right-arrow {
+  transform: rotate(180deg);
+}

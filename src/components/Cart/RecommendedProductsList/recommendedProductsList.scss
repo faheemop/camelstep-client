@@ -1,0 +1,45 @@
+.recommended-products {
+  padding-block-start: 2rem;
+
+  &__text {
+    display: flex;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    position: relative;
+
+    @include respond-to('mobile') {
+      position: relative;
+      width: calc(100% + 4rem);
+      left: -2rem;
+    }
+
+    .swiper-button-prev {
+      left: -2rem;
+    }
+
+    .swiper-button-next {
+      right: -2rem;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      background: none;
+      border: none;
+
+      @include respond-to('mobile') {
+        display: none;
+      }
+    }
+  }
+
+  .swiper {
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.filter-modal{
+  margin-top: 1.5rem;
+  z-index: 10;
+  width: 100%;
+  top: 7rem;
+  left: 0;
+  background: #F9F9F9;
+  padding: 2rem 7rem;
+  border-radius: 2%;
+  min-height: 30rem;
+
+  .cross-icon-container{
+    display: flex;
+    justify-content: flex-end;
+
+    .cross-icon{
+      background-color: transparent;
+      border: none;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+
+  .filters-container{
+    display: flex;
+    gap: 7rem;
+    padding-bottom: 5rem;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  
+    .tag-filters{
+      display: flex;
+      flex-direction: column;
+      margin-right: 3rem;
+
+      .tag-filters-label{
+        color: $mainBlue;
+        padding-bottom: 1.5rem;
+        font-size: 1.6rem;
+        font-weight: 600;
+        padding-bottom: 3.5rem;
+      }
+    }
+  }
+}

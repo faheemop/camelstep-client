@@ -1,0 +1,50 @@
+{
+  "name": "tastes",
+  "children": [
+    {
+      "name": "floral",
+      "children": [],
+      "value": 1
+    },
+    {
+      "name": "fruity",
+      "children": [],
+      "value": 1
+    },
+    {
+      "name": "sour / fermented",
+      "children": [],
+      "value": 1
+    },
+    {
+      "name": "green / vegetative",
+      "children": [],
+      "value": 1
+    },
+    {
+      "name": "other",
+      "children": [],
+      "value": 1
+    },
+    {
+      "name": "roasted",
+      "children": [],
+      "value": 1
+    },
+    {
+      "name": "spices",
+      "children": [],
+      "value": 1
+    },
+    {
+      "name": "nutty / cocoa",
+      "children": [],
+      "value": 1
+    },
+    {
+      "name": "sweet",
+      "children": [],
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  h2 {
+    margin-block-end: 1em;
+    text-align: center;
+
+    &+p {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 300;
+      color: #656D77;
+      margin: 3.5rem 3rem 7rem;
+    }
+  }
+
+  .contact-tabs {
+    margin-block-end: 4rem;
+    display: flex;
+    gap: 1.5rem 1rem;
+    flex-direction: column;
+
+    @include respond-to('small') {
+      flex-direction: row;
+    }
+
+    &>div {
+      flex-grow: 1;
+    }
+
+    input:checked+.btn-checkbox .btn-checkbox__text {
+      color: $mainBlue;
+    }
+
+    .btn-checkbox {
+      text-align: center;
+      justify-content: center;
+    }
+
+    .btn-checkbox__text {
+      color: #9A97A4;
+    }
+
+    .checkmark {
+      display: none;
+    }
+  }
+
+  form {
+    margin-block-end: 2rem;
+
+    .custom-input__input,
+    .message-box__text-area {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .message-box__text-area {
+      resize: vertical;
+    }
+
+    .message-box__characters-counter {
+      padding-inline-start: 1.5rem;
+    }
+
+    .custom-checkbox {
+      margin-block-end: 2.5rem;
+    }
+
+    .form-actions {
+      margin-block-start: 2rem;
+
+      @include respond-to('mobile') {
+        text-align: center;
+      }
+    }
+
+    .city-note {
+      color: $colorWarning;
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin: 1rem 2rem 4.5rem;
+    }
+  }
+
+  .btn--naked {
+    margin: 4rem auto;
+  }
+}

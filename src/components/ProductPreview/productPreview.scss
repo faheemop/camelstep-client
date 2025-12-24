@@ -1,0 +1,31 @@
+.product-preview {
+  position: relative;
+  min-width: 8rem;
+  height: 8rem;
+  margin-inline-end: .5rem;
+
+  img {
+    width: auto;
+    height: 100%;
+  }
+
+  .product-count-badge {
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+  }
+
+
+  &__badge-container {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  &__image-container {
+    position: relative;
+  }
+}

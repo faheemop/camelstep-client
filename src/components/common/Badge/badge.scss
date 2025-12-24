@@ -1,0 +1,28 @@
+.badge {
+  padding: 0.45rem 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+  display: inline-block;
+  border-radius: 10rem;
+
+  &--bestseller {
+    background-color: $mainBlue;
+  }
+
+  &--limited {
+    background-color: $mainBeige;
+  }
+
+  &--out-of-stock {
+    background-color: $colorInactive;
+  }
+
+  &--new {
+    background-color: $mainBlue;
+  }
+
+  &--exclusive {
+    background-color: $mainBeige;
+  }
+}

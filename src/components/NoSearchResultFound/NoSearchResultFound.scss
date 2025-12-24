@@ -1,0 +1,23 @@
+.no-results {
+  width: 100%;
+  margin: 2rem 0;
+  text-align: center;
+
+  @include respond-to('x-small') {
+    width: 80%;
+    margin: 2rem auto;
+
+  }
+  @include respond-to('medium') {
+    width: 30%;
+  }
+
+  &__icon {
+    width: 50%;
+    height: auto;
+  }
+
+  &__text {
+    color: $mainBlue;
+  }
+}
